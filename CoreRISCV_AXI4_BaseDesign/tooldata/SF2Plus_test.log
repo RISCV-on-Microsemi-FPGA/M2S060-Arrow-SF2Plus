@@ -1,0 +1,16 @@
+Project Name: SF2Plus_test
+Location: C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S060-FG484
+Family         : SmartFusion2
+Die            : M2S060
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM
