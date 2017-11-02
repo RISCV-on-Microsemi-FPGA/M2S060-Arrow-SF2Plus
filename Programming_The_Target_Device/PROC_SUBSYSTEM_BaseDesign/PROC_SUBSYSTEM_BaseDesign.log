@@ -1,0 +1,41 @@
+Software Version: 11.8.1.12
+creating folder: C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+Created new project 'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+STAPL file 'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S060_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9B1D;  ALG_VERSION : 2
+creating folder: C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\projectData
+Software Version: 11.8.1.12
+STAPL file 'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S060_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9B1D;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+
+Created FlashPro Express Job Project.
+programmer 'E200EHIP1' : Scan Chain...
+Warning: programmer 'E200EHIP1' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E200EHIP1' : Check Chain...
+programmer 'E200EHIP1' : Scan and Check Chain PASSED.
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM
+programmer 'E200EHIP1' : device 'M2S060' : Family: SmartFusion2
+programmer 'E200EHIP1' : device 'M2S060' : Product:      M2S060
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT ISC_ENABLE_RESULT[32] = 00786544
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT CRCERR[1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT EDCERR[1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : Programming FPGA Array and eNVM...
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT Fabric component digest[256] = ab24dd92979d4a6bb2642919bca751f01390069417c9b29e7c3c448fe3b23ccf
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT eNVM component digest[256] = 790d92e38664d2ae9fec87b6e19d1d754e9e033bbe8618ed91eb71a521ba48bb
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT DSN[128] = 853b5d2f27a50cad9b5a79caa16d0883
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : Finished: Thu Nov 02 11:50:52 2017 (Elapsed time 00:01:00)
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM PASSED.
+programmer 'E200EHIP1' : Chain programming PASSED.
+Chain Programming Finished: Thu Nov 02 11:50:52 2017 (Elapsed time 00:01:00)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project saved.
+Project closed.

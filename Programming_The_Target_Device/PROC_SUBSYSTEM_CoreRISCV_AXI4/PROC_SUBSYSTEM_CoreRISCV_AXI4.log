@@ -1,0 +1,46 @@
+Software Version: 11.7.3.7
+creating folder: C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S060-Arrow-SF2Plus-master\FlashProExpress\PROC_SUBSYSTEM_CoreRISCV_AXI4
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+Created new project 'C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S060-Arrow-SF2Plus-master\FlashProExpress\PROC_SUBSYSTEM_CoreRISCV_AXI4\PROC_SUBSYSTEM_CoreRISCV_AXI4.pro'
+STAPL file 'C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S060-Arrow-SF2Plus-master\FlashProExpress\PROC_SUBSYSTEM_CoreRISCV_AXI4\M2S060_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 8230;  ALG_VERSION : 2
+creating folder: C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S060-Arrow-SF2Plus-master\FlashProExpress\PROC_SUBSYSTEM_CoreRISCV_AXI4\projectData
+Software Version: 11.7.3.7
+STAPL file 'C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S060-Arrow-SF2Plus-master\FlashProExpress\PROC_SUBSYSTEM_CoreRISCV_AXI4\M2S060_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 8230;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+
+Created FlashPro Express Job Project.
+programmer 'E200EHIP1' : Scan Chain...
+Warning: programmer 'E200EHIP1' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E200EHIP1' : Check Chain...
+programmer 'E200EHIP1' : Scan and Check Chain PASSED.
+Warning: programmer 'E200EHIP1' : device 'M2S060' : Device authentication failure: Failed to validate device certificate.
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM
+programmer 'E200EHIP1' : device 'M2S060' : Family: SmartFusion2
+programmer 'E200EHIP1' : device 'M2S060' : Product:      M2S060
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT ISC_ENABLE_RESULT[32] = 00786544
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT CRCERR: [1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT EDCERR: [1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : TEMPGRADE: ROOM
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT VPPRANGE: [3] = 2
+programmer 'E200EHIP1' : device 'M2S060' : VPPRANGE: HIGH
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT TEMP: [8] = 65
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT VPP: [8] = 78
+programmer 'E200EHIP1' : device 'M2S060' : Programming FPGA Array and eNVM...
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT Fabric component digest[256] = 8b0663e774818c0783520375da174ed0482512982a4b5dd09027cfe02204a4be
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT eNVM component digest[256] = 790d92e38664d2ae9fec87b6e19d1d754e9e033bbe8618ed91eb71a521ba48bb
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT DSN[128] = 853b5d2f27a50cad9b5a79caa16d0883
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : Finished: Thu Mar 30 16:23:33 2017 (Elapsed time 00:01:02)
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM PASSED.
+programmer 'E200EHIP1' : Chain programming PASSED.
+Chain Programming Finished: Thu Mar 30 16:23:33 2017 (Elapsed time 00:01:02)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.
