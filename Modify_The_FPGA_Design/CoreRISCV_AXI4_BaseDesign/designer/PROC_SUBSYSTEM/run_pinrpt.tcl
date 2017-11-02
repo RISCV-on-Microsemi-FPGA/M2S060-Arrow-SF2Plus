@@ -1,0 +1,10 @@
+DESIGN=PROC_SUBSYSTEM
+DESDIR=C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM
+TARGET_DIR=C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM
+FAM=SmartFusion2
+DIE=PA4M6000_N
+PACKAGE=fg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

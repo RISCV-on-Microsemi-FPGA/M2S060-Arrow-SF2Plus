@@ -1,0 +1,16 @@
+Software Version: 11.8.1.12
+Opened 'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\c1e20182-c5c1-40ad-85c1-00adc5c100ad.pdb' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9B1D;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+Successfully exported STAPL file: 'C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM_BaseDesign_M2S060.stp'; file programs Fabric and eNVM.
+Fabric component digest: ab24dd92979d4a6bb2642919bca751f01390069417c9b29e7c3c448fe3b23ccf
+eNVM component digest: 790d92e38664d2ae9fec87b6e19d1d754e9e033bbe8618ed91eb71a521ba48bb
+Finished: Thu Nov 02 11:47:25 2017 (Elapsed time 00:00:36)
+
+The 'export_single_stapl' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

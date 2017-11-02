@@ -1,0 +1,241 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+Date: Thu Nov 02 10:51:24 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S060         |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Topcell | PROC_SUBSYSTEM                                                                                                                                         |
+| Format  | EDIF                                                                                                                                                   |
+| Source  | C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\synthesis\PROC_SUBSYSTEM.edn |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+-------+-------+------------+
+| Type                      | Used  | Total | Percentage |
++---------------------------+-------+-------+------------+
+| 4LUT                      | 12117 | 56520 | 21.44      |
+| DFF                       | 7183  | 56520 | 12.71      |
+| I/O Register              | 0     | 801   | 0.00       |
+| User I/O                  | 60    | 267   | 22.47      |
+| -- Single-ended I/O       | 58    | 267   | 21.72      |
+| -- Differential I/O Pairs | 1     | 133   | 0.75       |
+| RAM64x18                  | 62    | 72    | 86.11      |
+| RAM1K18                   | 8     | 69    | 11.59      |
+| MACC                      | 2     | 72    | 2.78       |
+| Chip Globals              | 11    | 16    | 68.75      |
+| CCC                       | 1     | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1     | 1     | 100.00     |
+| RCOSC_1MHZ                | 0     | 1     | 0.00       |
+| XTLOSC                    | 0     | 1     | 0.00       |
+| MSS                       | 1     | 1     | 100.00     |
++---------------------------+-------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+-------+------+
+| Type                     | 4LUT  | DFF  |
++--------------------------+-------+------+
+| Fabric Logic             | 9525  | 4591 |
+| RAM64x18 Interface Logic | 2232  | 2232 |
+| RAM1K18 Interface Logic  | 288   | 288  |
+| MACC Interface Logic     | 72    | 72   |
+| Total Used               | 12117 | 7183 |
++--------------------------+-------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 20   |
+| 5      | 1    |
+| 7      | 4    |
+| 8      | 6    |
+| 11     | 4    |
+| 14     | 2    |
+| 17     | 4    |
+| 30     | 2    |
+| 32     | 5    |
+| 33     | 4    |
+| 49     | 1    |
+| 58     | 2    |
+| 64     | 1    |
+| 65     | 1    |
+| Total  | 57   |
++--------+------+
+
+Detailed MACC Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 6            | 0           | 0               |
+| Output I/O                    | 32           | 0           | 0               |
+| Bidirectional I/O             | 20           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 1            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                 | Vddi   | Vref   | Input | Output | Bidirectional |
++------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                     |  2.50v |  N/A   |  5    |  5     |  0            |
+| LPDDRI (Input/Bidirectional) |  1.80v |  1.00v |  1    |  0     |  20           |
+| LPDDRI (Output)              |  1.80v |  N/A   |  0    |  29    |  0            |
++------------------------------+--------+--------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  50   | 83.33%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  10   | 16.67%     |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                               |
++--------+---------+------------------------------------------------------------------------------------+
+| 4446   | INT_NET | Net   : MSS_SUBSYSTEM_sb_0_FIC_0_CLK                                               |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/CCC_0/GL0_INST/U0_RGB1                                  |
+|        |         | Source: NETLIST                                                                    |
+| 1500   | INT_NET | Net   : MSS_SUBSYSTEM_sb_0_INIT_DONE                                               |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS/U0_RGB1               |
+|        |         | Source: NETLIST                                                                    |
+| 192    | INT_NET | Net   : COREJTAGDEBUG_0_TGT_TCK                                                    |
+|        |         | Driver: COREJTAGDEBUG_0/tck_clkint/U0_RGB1                                         |
+|        |         | Source: NETLIST                                                                    |
+| 87     | INT_NET | Net   : COREJTAGDEBUG_0.TGT_TRSTB                                                  |
+|        |         | Driver: COREJTAGDEBUG_0/genblk1_UJTAG_0_RNIFG38/U0_RGB1                            |
+|        |         | Source: NETLIST                                                                    |
+| 77     | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/CORECONFIGP_0_APB_S_PRESET_N                            |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNI1HN6_0/U0_RGB1 |
+|        |         | Source: NETLIST                                                                    |
+| 75     | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/CORECONFIGP_0_APB_S_PCLK                                |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNI1HN6/U0_RGB1   |
+|        |         | Source: NETLIST                                                                    |
+| 26     | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_clk_base                      |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIU66D/U0_RGB1      |
+|        |         | Source: NETLIST                                                                    |
+| 22     | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                             |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1            |
+|        |         | Source: NETLIST                                                                    |
+| 17     | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_rcosc                         |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNI4N5C/U0_RGB1         |
+|        |         | Source: NETLIST                                                                    |
+| 16     | INT_NET | Net   : COREJTAGDEBUG_0/UDRCK_OUT                                                  |
+|        |         | Driver: COREJTAGDEBUG_0/genblk1_udrck_clkint/U0_RGB1                               |
+|        |         | Source: NETLIST                                                                    |
+| 14     | INT_NET | Net   : CORERISCV_AXI4_0/rd_reset_i                                                |
+|        |         | Driver: CORERISCV_AXI4_0/debugBusReqFifo/rd_reset_RNI5HA5/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                    |
++--------+---------+------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                                                               |
++--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 675    | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int                                                                                                                              |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int                                                                                                                              |
+| 217    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/T_628                                                                                                                                   |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/TileLinkRecursiveInterconnect_2/xbar/PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1/gnt_arb/T_628 |
+| 139    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core_io_imem_flush_icache                                                                                                         |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/io_imem_flush_icache                                                                                                         |
+| 128    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/icache/icache/un1_GEN_13_1_sqmuxa_or                                                                                              |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/icache/icache/invalidated_RNI38C91                                                                                                |
+| 105    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1_io_tl_grant_bits_addr_beat[1]                                                                                             |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1/sbAcqReg_addr_beat[1]                                                                                                     |
+| 105    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/io_chosen_i                                                                                                                   |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/ClientTileLinkIOUnwrapper_1/acqArb/io_chosen_iv                                                                               |
+| 102    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/ex_pc_valid                                                                                                                  |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/ex_pc_valid                                                                                                                  |
+| 99     | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/un2_N_3_mux                                                                                                                   |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/l1tol2net/relNet/arb/io_chosen_o3_RNIVQ4O1[0]                                                                                 |
+| 97     | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/N_3739                                                                                                                       |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/ex_ctrl_sel_alu1_RNI9HTF[1]                                                                                                  |
+| 95     | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1/N_2674                                                                                                                    |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1/GEN_87_0_o2                                                                                                               |
++--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                                                               |
++--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 675    | INT_NET | Net   : MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int                                                                                                                              |
+|        |         | Driver: MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int                                                                                                                              |
+| 217    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/T_628                                                                                                                                   |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/TileLinkRecursiveInterconnect_2/xbar/PROC_SUBSYSTEM_CORERISCV_AXI4_0_CORERISCV_AXI4_CLIENT_UNCACHED_TILE_LINK_IO_ROUTER_1/gnt_arb/T_628 |
+| 139    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core_io_imem_flush_icache                                                                                                         |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/io_imem_flush_icache                                                                                                         |
+| 128    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/icache/icache/un1_GEN_13_1_sqmuxa_or                                                                                              |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/icache/icache/invalidated_RNI38C91                                                                                                |
+| 105    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1_io_tl_grant_bits_addr_beat[1]                                                                                             |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1/sbAcqReg_addr_beat[1]                                                                                                     |
+| 105    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/io_chosen_i                                                                                                                   |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/ClientTileLinkIOUnwrapper_1/acqArb/io_chosen_iv                                                                               |
+| 102    | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/ex_pc_valid                                                                                                                  |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/ex_pc_valid                                                                                                                  |
+| 99     | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/un2_N_3_mux                                                                                                                   |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/outmemsys/l1tol2net/relNet/arb/io_chosen_o3_RNIVQ4O1[0]                                                                                 |
+| 97     | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/N_3739                                                                                                                       |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/RocketTile_1/core/ex_ctrl_sel_alu1_RNI9HTF[1]                                                                                                  |
+| 95     | INT_NET | Net   : CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1/N_2674                                                                                                                    |
+|        |         | Driver: CORERISCV_AXI4_0/ChiselTop0/uncore/DebugModule_1/GEN_87_0_o2                                                                                                               |
++--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
