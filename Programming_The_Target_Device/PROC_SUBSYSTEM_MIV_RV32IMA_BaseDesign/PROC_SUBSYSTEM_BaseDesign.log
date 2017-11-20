@@ -1,0 +1,39 @@
+Software Version: 11.8.0.26
+creating folder: C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+Created new project 'C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+STAPL file 'C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign\M2S060_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : AB2F;  ALG_VERSION : 2
+creating folder: C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign\projectData
+Software Version: 11.8.0.26
+STAPL file 'C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign\M2S060_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : AB2F;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+
+Created FlashPro Express Job Project.
+programmer 'E200EHIP1' : Scan Chain...
+Warning: programmer 'E200EHIP1' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E200EHIP1' : Check Chain...
+programmer 'E200EHIP1' : Scan and Check Chain PASSED.
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM
+programmer 'E200EHIP1' : device 'M2S060' : Family: SmartFusion2
+programmer 'E200EHIP1' : device 'M2S060' : Product:      M2S060
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT ISC_ENABLE_RESULT[32] = 009b6444
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT CRCERR[1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT EDCERR[1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : Programming FPGA Array...
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT Fabric component digest[256] = e334de263de625fa5f374a9863e62e9e9eaee7308b4be69e2120d8317156106c
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT DSN[128] = 853b5d2f27a50cad9b5a79caa16d0883
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : Finished: Fri Nov 17 16:16:41 2017 (Elapsed time 00:00:50)
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM PASSED.
+programmer 'E200EHIP1' : Chain programming PASSED.
+Chain Programming Finished: Fri Nov 17 16:16:41 2017 (Elapsed time 00:00:50)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.
