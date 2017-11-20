@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 11.8.2.4</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release  (Version 11.8.2.4)
+Date: Thu Nov 16 12:19:53 2017 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>MSS_SUBSYSTEM_sb_0</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S060</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>484 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        12717</cell>
+ <cell>            8</cell>
+ <cell>        12725</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          844</cell>
+ <cell>           28</cell>
+ <cell>          872</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        13561</cell>
+ <cell>           43</cell>
+ <cell>        13604</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        12717</cell>
+ <cell>            8</cell>
+ <cell>        12725</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          844</cell>
+ <cell>           28</cell>
+ <cell>          872</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        13561</cell>
+ <cell>           43</cell>
+ <cell>        13604</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        11917</cell>
+ <cell>            4</cell>
+ <cell>        11921</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          710</cell>
+ <cell>            4</cell>
+ <cell>          714</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        12627</cell>
+ <cell>           13</cell>
+ <cell>        12640</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        11917</cell>
+ <cell>            4</cell>
+ <cell>        11921</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          710</cell>
+ <cell>            4</cell>
+ <cell>          714</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        12627</cell>
+ <cell>           13</cell>
+ <cell>        12640</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_IN[0]</item>
+ <item>GPIO_IN[1]</item>
+ <item>GPIO_IN[2]</item>
+ <item>GPIO_IN[3]</item>
+ <item>RX</item>
+ <item>TCK</item>
+ <item>TRSTB</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_IN[0]</item>
+ <item>GPIO_IN[1]</item>
+ <item>GPIO_IN[2]</item>
+ <item>GPIO_IN[3]</item>
+ <item>RX</item>
+ <item>TCK</item>
+ <item>TRSTB</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_OUT[0]</item>
+ <item>GPIO_OUT[1]</item>
+ <item>GPIO_OUT[2]</item>
+ <item>GPIO_OUT[3]</item>
+ <item>TX</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_OUT[0]</item>
+ <item>GPIO_OUT[1]</item>
+ <item>GPIO_OUT[2]</item>
+ <item>GPIO_OUT[3]</item>
+ <item>TX</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_0_.gpin1:D</item>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_1_.gpin1:D</item>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_2_.gpin1:D</item>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_3_.gpin1:D</item>
+</list>
+<text></text>
+<text> - Recovery uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base:ALn</item>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1:ALn</item>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_0_.gpin1:D</item>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_1_.gpin1:D</item>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_2_.gpin1:D</item>
+ <item>CoreGPIO_IN/xhdl1.GEN_BITS_3_.gpin1:D</item>
+</list>
+<text></text>
+<text> - Removal uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base:ALn</item>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1:ALn</item>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           33</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           22</cell>
+ <cell>            0</cell>
+ <cell>           22</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           55</cell>
+ <cell>            0</cell>
+ <cell>           55</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           33</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           22</cell>
+ <cell>            0</cell>
+ <cell>           22</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           55</cell>
+ <cell>            0</cell>
+ <cell>           55</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          191</cell>
+ <cell>            0</cell>
+ <cell>          191</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           74</cell>
+ <cell>            0</cell>
+ <cell>           74</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          265</cell>
+ <cell>            0</cell>
+ <cell>          265</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          191</cell>
+ <cell>            0</cell>
+ <cell>          191</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           74</cell>
+ <cell>            0</cell>
+ <cell>           74</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          265</cell>
+ <cell>            0</cell>
+ <cell>          265</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>TCK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          576</cell>
+ <cell>            4</cell>
+ <cell>          580</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           38</cell>
+ <cell>           24</cell>
+ <cell>           62</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          614</cell>
+ <cell>           29</cell>
+ <cell>          643</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          576</cell>
+ <cell>            4</cell>
+ <cell>          580</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           38</cell>
+ <cell>           24</cell>
+ <cell>           62</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          614</cell>
+ <cell>           29</cell>
+ <cell>          643</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>TCK</item>
+ <item>TDI</item>
+ <item>TMS</item>
+ <item>TRSTB</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>TCK</item>
+ <item>TDI</item>
+ <item>TMS</item>
+ <item>TRSTB</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>TDO</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>TDO</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/pauselow:D</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/utdo:EN</item>
+ <item>COREJTAGDEBUG_0/genblk1_UJTAG_0/INST_UJTAG_SYSRESET_FF_IP:TDI</item>
+ <item>COREJTAGDEBUG_0/genblk1_UJTAG_0/INST_UJTAG_SYSRESET_FF_IP:TMS</item>
+</list>
+<text></text>
+<text> - Recovery uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[0]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[1]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[2]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[3]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[4]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[5]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/endofshift:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/pauselow:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[0]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[1]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[2]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[3]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[4]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/tckgo:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/tmsenb:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/utdo:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1_UJTAG_0/INST_UJTAG_SYSRESET_FF_IP:TRSTB</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_0/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_1/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_2/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_0/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_1/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_2/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_3/q:ALn</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/pauselow:D</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/utdo:EN</item>
+ <item>COREJTAGDEBUG_0/genblk1_UJTAG_0/INST_UJTAG_SYSRESET_FF_IP:TDI</item>
+ <item>COREJTAGDEBUG_0/genblk1_UJTAG_0/INST_UJTAG_SYSRESET_FF_IP:TMS</item>
+</list>
+<text></text>
+<text> - Removal uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[0]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[1]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[2]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[3]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[4]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/count[5]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/endofshift:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/pauselow:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[0]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[1]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[2]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[3]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/state[4]:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/tckgo:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/tmsenb:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1.UJ_JTAG_0/utdo:ALn</item>
+ <item>COREJTAGDEBUG_0/genblk1_UJTAG_0/INST_UJTAG_SYSRESET_FF_IP:TRSTB</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_0/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_1/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_2/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_0/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_1/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_2/q:ALn</item>
+ <item>MIV_RV32IMA_L1_AHB_0/ChiselTop0/dtm/MSS_SUBSYSTEM_sb_0_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER/stateMachine/currStateReg/reg_3/q:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max delay constraint missing on  inputport:</text>
+<text>   </text>
+<list>
+ <item>TCK</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on  inputport:</text>
+<text>   </text>
+<list>
+ <item>TCK</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max delay constraint missing on  outputport:</text>
+<text>   </text>
+<list>
+ <item>TDO</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on  outputport:</text>
+<text>   </text>
+<list>
+ <item>TDO</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+</section>
+</doc>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\synthesis\synlog\PROC_SUBSYSTEM_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>142.9 MHz</data>
+<data>1.501</data>
+</row>
+<row>
+<data>MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0</data>
+<data>50.0 MHz</data>
+<data>64.2 MHz</data>
+<data>4.423</data>
+</row>
+<row>
+<data>MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>50.0 MHz</data>
+<data>372.7 MHz</data>
+<data>17.317</data>
+</row>
+<row>
+<data>MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB</data>
+<data>12.5 MHz</data>
+<data>92.6 MHz</data>
+<data>34.600</data>
+</row>
+<row>
+<data>TCK</data>
+<data>6.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>uj_jtag_85|un1_duttck_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>115.4 MHz</data>
+<data>0.668</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>160.9 MHz</data>
+<data>3.784</data>
+</row>
+</report_table>

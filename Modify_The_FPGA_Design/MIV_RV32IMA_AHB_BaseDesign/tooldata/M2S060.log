@@ -1,0 +1,16 @@
+Project Name: M2S060
+Location: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S060-FG484
+Family         : SmartFusion2
+Die            : M2S060
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

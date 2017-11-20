@@ -1,0 +1,43 @@
+@P:  Worst Slack : 0.637
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Frequency : 119.3 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Estimated Period : 8.379
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Requested Period : 10.000
+@P:  COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock - Slack : 0.810
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 - Estimated Frequency : 64.4 MHz
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 - Requested Frequency : 50.0 MHz
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 - Estimated Period : 15.523
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 - Requested Period : 20.000
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 - Slack : 4.477
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 372.7 MHz
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 2.683
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : 17.317
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB - Estimated Frequency : 87.2 MHz
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB - Requested Frequency : 12.5 MHz
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB - Estimated Period : 11.465
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB - Requested Period : 80.000
+@P:  MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB - Slack : 34.267
+@P:  TCK - Estimated Frequency : NA
+@P:  TCK - Requested Frequency : 6.0 MHz
+@P:  TCK - Estimated Period : NA
+@P:  TCK - Requested Period : 166.670
+@P:  TCK - Slack : NA
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Frequency : 114.6 MHz
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Estimated Period : 8.726
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Requested Period : 10.000
+@P:  uj_jtag_85|un1_duttck_inferred_clock - Slack : 0.637
+@P:  System - Estimated Frequency : 165.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 6.041
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 3.959
+@P: MSS_SUBSYSTEM_sb_0 Part : m2s060fbga484std
+@P: MSS_SUBSYSTEM_sb_0 Register bits  : 5642 
+@P: MSS_SUBSYSTEM_sb_0 DSP Blocks  : 2
+@P: MSS_SUBSYSTEM_sb_0 I/O primitives : 59
+@P: MSS_SUBSYSTEM_sb_0 RAM1K18 :  8
+@P: MSS_SUBSYSTEM_sb_0 RAM64x18 :  8
+@P:  CPU Time : 0h:02m:33s
