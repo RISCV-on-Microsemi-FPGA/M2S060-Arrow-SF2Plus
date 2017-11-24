@@ -1,0 +1,37 @@
+Software Version: 11.8.2.4
+Embedded FlashPro5 programmer detected.
+programmer 'E200EHIP1' : FlashPro5
+Opened 'C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0_fp\MSS_SUBSYSTEM_sb_0.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S060/designer/MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_0.ipd' has been loaded successfully.
+DESIGN : MSS_SUBSYSTEM_sb_0;  CHECKSUM : CDC1;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S060'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E200EHIP1' : Scan Chain...
+Warning: programmer 'E200EHIP1' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E200EHIP1' : Check Chain...
+programmer 'E200EHIP1' : Scan and Check Chain PASSED.
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM
+programmer 'E200EHIP1' : device 'M2S060' : Family: SmartFusion2
+programmer 'E200EHIP1' : device 'M2S060' : Product:      M2S060
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT ISC_ENABLE_RESULT[32] = 00916644
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT CRCERR[1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT EDCERR[1] = 0
+programmer 'E200EHIP1' : device 'M2S060' : Programming FPGA Array...
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : EXPORT DSN[128] = 853b5d2f27a50cad9b5a79caa16d0883
+programmer 'E200EHIP1' : device 'M2S060' : ===================================================================================
+programmer 'E200EHIP1' : device 'M2S060' : Finished: Thu Nov 16 12:42:34 2017 (Elapsed time 00:00:46)
+programmer 'E200EHIP1' : device 'M2S060' : Executing action PROGRAM PASSED.
+programmer 'E200EHIP1' : Chain programming PASSED.
+Chain Programming Finished: Thu Nov 16 12:42:34 2017 (Elapsed time 00:00:46)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

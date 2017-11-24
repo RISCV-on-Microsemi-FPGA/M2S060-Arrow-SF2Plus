@@ -1,0 +1,86 @@
+INFO: Reading User SDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\constraint\MSS_SUBSYSTEM_sb_0_derived_constraints.sdc.
+INFO: Reading User SDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\constraint\user.sdc.
+4 warnings found.
+Check logfile C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\constraint\placer_sdc_errors.log for details.
+
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\constraint\fp\MSS_SUBSYSTEM_sb_0_derived_constraints.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 59 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 2 seconds
+
+Placer V4.0 - 11.8.2 
+Design: MSS_SUBSYSTEM_sb_0              Started: Thu Nov 16 12:10:08 2017
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 61 seconds
+Placement Runtime            : 145 seconds
+
+Placer completed successfully.
+
+Design: MSS_SUBSYSTEM_sb_0              
+Finished: Thu Nov 16 12:14:20 2017
+Total CPU Time:     00:04:02            Total Elapsed Time: 00:04:12
+Total Memory Usage: 745.1 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0Started: Thu Nov 16 12:14:38 2017
+
+Final stats: search run time 65.818553
+
+Router completed successfully.
+
+Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0
+Finished: Thu Nov 16 12:16:16 2017
+Total CPU Time:     00:01:34            Total Elapsed Time: 00:01:38
+Total Memory Usage: 1852.1 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 26
+  Worst minimum delay slack: -0.656 ns
+
+Router 
+Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0Started: Thu Nov 16 12:17:34 2017
+
+Loading routing information for ECO mode...
+After loading previous routing information: Shorts = 0. Open nets = 61.
+Final stats: search run time 0.063408
+
+Router completed successfully.
+
+Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S060\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0
+Finished: Thu Nov 16 12:18:09 2017
+Total CPU Time:     00:00:32            Total Elapsed Time: 00:00:35
+Total Memory Usage: 1860.3 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+-------+-------+------------+
+| Type          | Used  | Total | Percentage |
++---------------+-------+-------+------------+
+| 4LUT          | 12726 | 56520 | 22.52      |
+| DFF           | 6290  | 56520 | 11.13      |
+| I/O Register  | 0     | 795   | 0.00       |
+| Logic Element | 13203 | 56520 | 23.36      |
++---------------+-------+-------+------------+
+

@@ -1,0 +1,12 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+File C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\synthesis\synwork\PROC_SUBSYSTEM_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov 20 10:10:09 2017
+
+###########################################################]
