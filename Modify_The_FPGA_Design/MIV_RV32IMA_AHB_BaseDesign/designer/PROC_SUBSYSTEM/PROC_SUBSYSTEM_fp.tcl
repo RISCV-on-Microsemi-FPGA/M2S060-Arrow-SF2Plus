@@ -1,6 +1,6 @@
 new_project \
          -name {PROC_SUBSYSTEM} \
-         -location {C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp} \
+         -location {C:\Users\ciaran.lappin\Downloads\CreativeRes\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp} \
          -mode {chain} \
          -connect_programmers {FALSE}
 add_actel_device \

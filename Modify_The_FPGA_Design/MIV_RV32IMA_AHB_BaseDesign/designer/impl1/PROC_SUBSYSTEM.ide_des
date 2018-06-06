@@ -1,12 +1,14 @@
 KEY IDE_DES_TOOL "Ide"
-KEY IDE_DES_ADB_PATH "C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\designer\impl1\PROC_SUBSYSTEM.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\designer\impl1\PROC_SUBSYSTEM.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\constraint\io\user.pdc;pdc"
-VALUE "C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\constraint\user.sdc;sdc"
-VALUE "C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\constraint\PROC_SUBSYSTEM_derived_constraints.sdc;sdc"
-VALUE "C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S060\Modify_The_FPGA_Design\CoreMIV\constraint\fp\PROC_SUBSYSTEM_derived_constraints.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\synthesis\PROC_SUBSYSTEM.edn;edn"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\constraint\io\user.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\constraint\PROC_SUBSYSTEM_derived_constraints.sdc;sdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\constraint\fp\PROC_SUBSYSTEM_derived_constraints.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\constraint\user.sdc;sdc"
 ENDLIST
 LIST OPTIONAL_FILES
+VALUE "C:\Users\ciaran.lappin\Documents\Boards\SmartFusion2\SF2Plus_test\synthesis\PROC_SUBSYSTEM_sdc.sdc;Skipped"
 ENDLIST
 LIST VCD_FILES
 ENDLIST

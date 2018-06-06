@@ -1,6 +1,6 @@
 <project name="PROC_SUBSYSTEM" version="1.1">
     <ProjectDirectory>
-        C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp
+        C:\Users\ciaran.lappin\Desktop\ExtHelp\TimMorin\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,11 +9,19 @@
         M2S060
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.log
+        C:\Users\ciaran.lappin\Desktop\ExtHelp\TimMorin\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
+        <name>
+            E200EHIP1
+        </name>
+        <id>
+            E200EHIP1
+        </id>
+    </programmer>
     <configuration>
         <Hardware>
             <FlashPro>
