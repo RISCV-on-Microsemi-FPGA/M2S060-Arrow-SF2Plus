@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Fri Nov 17 14:37:22 2017
-// Version: v11.8 SP2 11.8.2.4
+// Created by SmartDesign Wed Jun 06 14:57:27 2018
+// Version: v11.8 SP3 11.8.3.6
 //////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 100ps
@@ -144,7 +144,8 @@ wire           CoreTimer_0_TIMINT;
 wire           CoreTimer_1_TIMINT;
 wire           DEVRST_N;
 wire   [3:0]   GPIO_IN;
-wire   [3:0]   GPIO_OUT_net_0;
+wire   [31:0]  GPIO_OUT_net_0;
+wire   [3:0]   GPIO_OUT_0;
 wire   [15:0]  MDDR_ADDR_net_0;
 wire   [2:0]   MDDR_BA_net_0;
 wire           MDDR_CAS_N_net_0;
@@ -181,8 +182,8 @@ wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HTRANS;
 wire   [31:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HWDATA;
 wire           MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HWRITE;
 wire           MIV_RV32IMA_L1_AHB_0_TDO;
-wire           MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0;
-wire           MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE;
+wire           MSS_SUBSYSTEM_sb_0_FIC_0_CLK;
+wire           MSS_SUBSYSTEM_sb_0_INIT_DONE;
 wire           RX;
 wire           TCK;
 wire           TDI;
@@ -200,18 +201,17 @@ wire           MDDR_ODT_net_1;
 wire           MDDR_RAS_N_net_1;
 wire           MDDR_RESET_N_net_1;
 wire           MDDR_WE_N_net_1;
-wire           TDO_net_1;
 wire           TX_net_1;
+wire           TDO_net_1;
 wire   [15:0]  MDDR_ADDR_net_1;
 wire   [2:0]   MDDR_BA_net_1;
-wire   [3:0]   GPIO_OUT_net_1;
+wire   [3:0]   GPIO_OUT_0_net_0;
 wire   [15:8]  GPIO_OUT_slice_0;
 wire   [23:16] GPIO_OUT_slice_1;
 wire   [31:24] GPIO_OUT_slice_2;
 wire   [7:4]   GPIO_OUT_slice_3;
 wire   [30:0]  IRQ_net_0;
 wire   [31:0]  GPIO_IN_net_0;
-wire   [31:0]  GPIO_OUT_net_2;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -220,9 +220,9 @@ wire   [23:16] GPIO_IN_const_net_1;
 wire   [31:24] GPIO_IN_const_net_2;
 wire   [7:4]   GPIO_IN_const_net_3;
 wire   [31:0]  GPIO_IN_const_net_4;
-wire           GND_net;
 wire           VCC_net;
 wire   [15:0]  MSS_INT_F2M_const_net_0;
+wire           GND_net;
 wire   [31:0]  IADDR_const_net_0;
 wire   [7:0]   UIREG_IN_const_net_0;
 wire   [31:0]  HADDR_M1_const_net_0;
@@ -346,22 +346,22 @@ wire           CoreAHBLite_0_AHBmslave6_HRESP;
 wire   [2:0]   CoreAHBLite_0_AHBmslave6_HSIZE;
 wire   [1:0]   CoreAHBLite_0_AHBmslave6_HSIZE_0_1to0;
 wire   [1:0]   CoreAHBLite_0_AHBmslave6_HSIZE_0;
+wire           CoreAHBLite_1_AHBmslave16_HRESP;
 wire   [1:1]   CoreAHBLite_1_AHBmslave16_HRESP_0_1to1;
 wire   [0:0]   CoreAHBLite_1_AHBmslave16_HRESP_0_0to0;
 wire   [1:0]   CoreAHBLite_1_AHBmslave16_HRESP_0;
-wire           CoreAHBLite_1_AHBmslave16_HRESP;
-wire   [2:0]   CoreAHBLite_1_AHBmslave16_HSIZE;
 wire   [1:0]   CoreAHBLite_1_AHBmslave16_HSIZE_0_1to0;
 wire   [1:0]   CoreAHBLite_1_AHBmslave16_HSIZE_0;
-wire   [31:0]  CoreAPB3_0_APBmslave1_PADDR;
+wire   [2:0]   CoreAHBLite_1_AHBmslave16_HSIZE;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_1_7to0;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_1;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4_7to0;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_2_4to2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_3_4to2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_3;
+wire   [31:0]  CoreAPB3_0_APBmslave1_PADDR;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4_7to0;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4;
 wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0_4to0;
 wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0;
 wire   [31:8]  CoreAPB3_0_APBmslave1_PRDATA_0_31to8;
@@ -374,13 +374,13 @@ wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_0;
 wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP;
 wire   [0:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP_0_0to0;
 wire           MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP_0;
+wire   [30:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR;
 wire   [31:31] MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR_0_31to31;
 wire   [30:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR_0_30to0;
 wire   [31:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR_0;
-wire   [30:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR;
-wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP;
 wire   [0:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP_0_0to0;
 wire           MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP_0;
+wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
@@ -389,9 +389,9 @@ assign GPIO_IN_const_net_1            = 8'h00;
 assign GPIO_IN_const_net_2            = 8'h00;
 assign GPIO_IN_const_net_3            = 4'h0;
 assign GPIO_IN_const_net_4            = 32'h00000000;
-assign GND_net                        = 1'b0;
 assign VCC_net                        = 1'b1;
 assign MSS_INT_F2M_const_net_0        = 16'h0000;
+assign GND_net                        = 1'b0;
 assign IADDR_const_net_0              = 32'h00000000;
 assign UIREG_IN_const_net_0           = 8'h00;
 assign HADDR_M1_const_net_0           = 32'h00000000;
@@ -528,28 +528,28 @@ assign MDDR_RESET_N_net_1          = MDDR_RESET_N_net_0;
 assign MDDR_RESET_N                = MDDR_RESET_N_net_1;
 assign MDDR_WE_N_net_1             = MDDR_WE_N_net_0;
 assign MDDR_WE_N                   = MDDR_WE_N_net_1;
-assign TDO_net_1                   = TDO_net_0;
-assign TDO                         = TDO_net_1;
 assign TX_net_1                    = TX_net_0;
 assign TX                          = TX_net_1;
+assign TDO_net_1                   = TDO_net_0;
+assign TDO                         = TDO_net_1;
 assign MDDR_ADDR_net_1             = MDDR_ADDR_net_0;
 assign MDDR_ADDR[15:0]             = MDDR_ADDR_net_1;
 assign MDDR_BA_net_1               = MDDR_BA_net_0;
 assign MDDR_BA[2:0]                = MDDR_BA_net_1;
-assign GPIO_OUT_net_1              = GPIO_OUT_net_0;
-assign GPIO_OUT[3:0]               = GPIO_OUT_net_1;
+assign GPIO_OUT_0_net_0            = GPIO_OUT_0;
+assign GPIO_OUT[3:0]               = GPIO_OUT_0_net_0;
 //--------------------------------------------------------------------
 // Slices assignments
 //--------------------------------------------------------------------
-assign GPIO_OUT_net_0   = GPIO_OUT_net_2[3:0];
-assign GPIO_OUT_slice_0 = GPIO_OUT_net_2[15:8];
-assign GPIO_OUT_slice_1 = GPIO_OUT_net_2[23:16];
-assign GPIO_OUT_slice_2 = GPIO_OUT_net_2[31:24];
-assign GPIO_OUT_slice_3 = GPIO_OUT_net_2[7:4];
+assign GPIO_OUT_0       = GPIO_OUT_net_0[3:0];
+assign GPIO_OUT_slice_0 = GPIO_OUT_net_0[15:8];
+assign GPIO_OUT_slice_1 = GPIO_OUT_net_0[23:16];
+assign GPIO_OUT_slice_2 = GPIO_OUT_net_0[31:24];
+assign GPIO_OUT_slice_3 = GPIO_OUT_net_0[7:4];
 //--------------------------------------------------------------------
 // Concatenation assignments
 //--------------------------------------------------------------------
-assign IRQ_net_0     = { CoreTimer_1_TIMINT , CoreTimer_0_TIMINT , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 , 1'b0 };
+assign IRQ_net_0     = { CoreTimer_1_TIMINT , CoreTimer_0_TIMINT , 29'h00000000 };
 assign GPIO_IN_net_0 = { 8'h00 , 8'h00 , 8'h00 , 4'h0 , GPIO_IN };
 //--------------------------------------------------------------------
 // Bus Interface Nets Assignments - Unequal Pin Widths
@@ -570,12 +570,12 @@ assign CoreAHBLite_1_AHBmslave16_HSIZE_0 = { CoreAHBLite_1_AHBmslave16_HSIZE_0_1
 
 assign CoreAPB3_0_APBmslave1_PADDR_1_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
 assign CoreAPB3_0_APBmslave1_PADDR_1 = { CoreAPB3_0_APBmslave1_PADDR_1_7to0 };
-assign CoreAPB3_0_APBmslave1_PADDR_4_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
-assign CoreAPB3_0_APBmslave1_PADDR_4 = { CoreAPB3_0_APBmslave1_PADDR_4_7to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_2_4to2 = CoreAPB3_0_APBmslave1_PADDR[4:2];
 assign CoreAPB3_0_APBmslave1_PADDR_2 = { CoreAPB3_0_APBmslave1_PADDR_2_4to2 };
 assign CoreAPB3_0_APBmslave1_PADDR_3_4to2 = CoreAPB3_0_APBmslave1_PADDR[4:2];
 assign CoreAPB3_0_APBmslave1_PADDR_3 = { CoreAPB3_0_APBmslave1_PADDR_3_4to2 };
+assign CoreAPB3_0_APBmslave1_PADDR_4_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
+assign CoreAPB3_0_APBmslave1_PADDR_4 = { CoreAPB3_0_APBmslave1_PADDR_4_7to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_0_4to0 = CoreAPB3_0_APBmslave1_PADDR[4:0];
 assign CoreAPB3_0_APBmslave1_PADDR_0 = { CoreAPB3_0_APBmslave1_PADDR_0_4to0 };
 
@@ -599,8 +599,8 @@ assign MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP_0 = { MIV_RV32IMA_L1_AHB_0_AHB_MS
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
-//--------PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite   -   Actel:DirectCore:CoreAHBLite:5.3.101
-PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite #( 
+//--------CoreAHBLite   -   Actel:DirectCore:CoreAHBLite:5.2.100
+CoreAHBLite #( 
         .FAMILY             ( 19 ),
         .HADDR_SHG_CFG      ( 1 ),
         .M0_AHBSLOT0ENABLE  ( 0 ),
@@ -690,8 +690,8 @@ PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite #(
         .SC_15              ( 0 ) )
 CoreAHBLite_0(
         // Inputs
-        .HCLK          ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .HRESETN       ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .HCLK          ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .HRESETN       ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .REMAP_M0      ( GND_net ), // tied to 1'b0 from definition
         .HMASTLOCK_M0  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HLOCK ),
         .HWRITE_M0     ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HWRITE ),
@@ -961,8 +961,8 @@ CoreAHBLite_0(
         .HPROT_S16     (  ) 
         );
 
-//--------PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite   -   Actel:DirectCore:CoreAHBLite:5.3.101
-PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite #( 
+//--------CoreAHBLite   -   Actel:DirectCore:CoreAHBLite:5.2.100
+CoreAHBLite #( 
         .FAMILY             ( 19 ),
         .HADDR_SHG_CFG      ( 1 ),
         .M0_AHBSLOT0ENABLE  ( 0 ),
@@ -1052,8 +1052,8 @@ PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite #(
         .SC_15              ( 0 ) )
 CoreAHBLite_1(
         // Inputs
-        .HCLK          ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .HRESETN       ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .HCLK          ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .HRESETN       ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .REMAP_M0      ( GND_net ), // tied to 1'b0 from definition
         .HMASTLOCK_M0  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HLOCK ),
         .HWRITE_M0     ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HWRITE ),
@@ -1328,8 +1328,8 @@ COREAHBTOAPB3 #(
         .FAMILY ( 19 ) )
 COREAHBTOAPB3_0(
         // Inputs
-        .HCLK      ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .HRESETN   ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .HCLK      ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .HRESETN   ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .HWRITE    ( CoreAHBLite_0_AHBmslave7_HWRITE ),
         .HSEL      ( CoreAHBLite_0_AHBmslave7_HSELx ),
         .HREADY    ( CoreAHBLite_0_AHBmslave7_HREADY ),
@@ -1610,11 +1610,11 @@ PROC_SUBSYSTEM_CoreGPIO_IN_CoreGPIO #(
         .IO_VAL_29       ( 0 ),
         .IO_VAL_30       ( 0 ),
         .IO_VAL_31       ( 0 ),
-        .OE_TYPE         ( 0 ) )
+        .OE_TYPE         ( 1 ) )
 CoreGPIO_IN(
         // Inputs
-        .PRESETN  ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
-        .PCLK     ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
+        .PRESETN  ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
+        .PCLK     ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
         .PSEL     ( CoreAPB3_0_APBmslave2_PSELx ),
         .PENABLE  ( CoreAPB3_0_APBmslave1_PENABLE ),
         .PWRITE   ( CoreAPB3_0_APBmslave1_PWRITE ),
@@ -1624,9 +1624,9 @@ CoreGPIO_IN(
         // Outputs
         .PSLVERR  ( CoreAPB3_0_APBmslave2_PSLVERR ),
         .PREADY   ( CoreAPB3_0_APBmslave2_PREADY ),
-        .INT_OR   (  ),
         .PRDATA   ( CoreAPB3_0_APBmslave2_PRDATA ),
         .INT      (  ),
+        .INT_OR   (  ),
         .GPIO_OUT (  ),
         .GPIO_OE  (  ) 
         );
@@ -1767,8 +1767,8 @@ PROC_SUBSYSTEM_CoreGPIO_OUT_CoreGPIO #(
         .OE_TYPE         ( 1 ) )
 CoreGPIO_OUT(
         // Inputs
-        .PRESETN  ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
-        .PCLK     ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
+        .PRESETN  ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
+        .PCLK     ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
         .PSEL     ( CoreAPB3_0_APBmslave5_PSELx ),
         .PENABLE  ( CoreAPB3_0_APBmslave1_PENABLE ),
         .PWRITE   ( CoreAPB3_0_APBmslave1_PWRITE ),
@@ -1778,10 +1778,10 @@ CoreGPIO_OUT(
         // Outputs
         .PSLVERR  ( CoreAPB3_0_APBmslave5_PSLVERR ),
         .PREADY   ( CoreAPB3_0_APBmslave5_PREADY ),
-        .INT_OR   (  ),
         .PRDATA   ( CoreAPB3_0_APBmslave5_PRDATA ),
         .INT      (  ),
-        .GPIO_OUT ( GPIO_OUT_net_2 ),
+        .INT_OR   (  ),
+        .GPIO_OUT ( GPIO_OUT_net_0 ),
         .GPIO_OE  (  ) 
         );
 
@@ -1835,8 +1835,8 @@ CoreTimer #(
         .WIDTH      ( 32 ) )
 CoreTimer_0(
         // Inputs
-        .PCLK    ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .PRESETn ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .PCLK    ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .PRESETn ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .PSEL    ( CoreAPB3_0_APBmslave3_PSELx ),
         .PWRITE  ( CoreAPB3_0_APBmslave1_PWRITE ),
         .PENABLE ( CoreAPB3_0_APBmslave1_PENABLE ),
@@ -1854,8 +1854,8 @@ CoreTimer #(
         .WIDTH      ( 32 ) )
 CoreTimer_1(
         // Inputs
-        .PCLK    ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .PRESETn ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .PCLK    ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .PRESETn ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .PSEL    ( CoreAPB3_0_APBmslave4_PSELx ),
         .PWRITE  ( CoreAPB3_0_APBmslave1_PWRITE ),
         .PENABLE ( CoreAPB3_0_APBmslave1_PENABLE ),
@@ -1880,15 +1880,16 @@ PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb #(
         .TX_FIFO           ( 0 ) )
 CoreUARTapb_0(
         // Inputs
-        .PCLK        ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .PRESETN     ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .PCLK        ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .PRESETN     ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
+        .PADDR       ( CoreAPB3_0_APBmslave1_PADDR_0 ),
         .PSEL        ( CoreAPB3_0_APBmslave1_PSELx ),
         .PENABLE     ( CoreAPB3_0_APBmslave1_PENABLE ),
         .PWRITE      ( CoreAPB3_0_APBmslave1_PWRITE ),
-        .RX          ( RX ),
-        .PADDR       ( CoreAPB3_0_APBmslave1_PADDR_0 ),
         .PWDATA      ( CoreAPB3_0_APBmslave1_PWDATA_0 ),
+        .RX          ( RX ),
         // Outputs
+        .PRDATA      ( CoreAPB3_0_APBmslave1_PRDATA ),
         .TXRDY       (  ),
         .RXRDY       (  ),
         .PARITY_ERR  (  ),
@@ -1896,8 +1897,7 @@ CoreUARTapb_0(
         .TX          ( TX_net_0 ),
         .PREADY      ( CoreAPB3_0_APBmslave1_PREADY ),
         .PSLVERR     ( CoreAPB3_0_APBmslave1_PSLVERR ),
-        .FRAMING_ERR (  ),
-        .PRDATA      ( CoreAPB3_0_APBmslave1_PRDATA ) 
+        .FRAMING_ERR (  ) 
         );
 
 //--------PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB   -   Microsemi:MiV:MIV_RV32IMA_L1_AHB:2.0.100
@@ -1906,43 +1906,43 @@ PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB #(
         .RESET_VECTOR_ADDR_1 ( 'h6000 ) )
 MIV_RV32IMA_L1_AHB_0(
         // Inputs
-        .CLK                 ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
-        .RESETN              ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .CLK                 ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
+        .RESETN              ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .TCK                 ( COREJTAGDEBUG_0_TGT_TCK ),
         .TMS                 ( COREJTAGDEBUG_0_TGT_TMS ),
         .TRST                ( COREJTAGDEBUG_0_TGT_TRST ),
         .TDI                 ( COREJTAGDEBUG_0_TGT_TDI ),
+        .IRQ                 ( IRQ_net_0 ),
         .AHB_MST_MMIO_HREADY ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HREADY ),
         .AHB_MST_MMIO_HRESP  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP_0 ),
+        .AHB_MST_MMIO_HRDATA ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRDATA ),
         .AHB_MST_MEM_HREADY  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HREADY ),
         .AHB_MST_MEM_HRESP   ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP_0 ),
-        .IRQ                 ( IRQ_net_0 ),
-        .AHB_MST_MMIO_HRDATA ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRDATA ),
         .AHB_MST_MEM_HRDATA  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRDATA ),
         // Outputs
         .TDO                 ( MIV_RV32IMA_L1_AHB_0_TDO ),
         .DRV_TDO             (  ),
         .AHB_MST_MEM_HSEL    (  ),
-        .AHB_MST_MMIO_HWRITE ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HWRITE ),
-        .AHB_MST_MMIO_HLOCK  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HLOCK ),
-        .AHB_MST_MEM_HWRITE  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HWRITE ),
-        .AHB_MST_MEM_HLOCK   ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HLOCK ),
         .AHB_MST_MMIO_HTRANS ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HTRANS ),
+        .AHB_MST_MMIO_HWRITE ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HWRITE ),
         .AHB_MST_MMIO_HADDR  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR ),
         .AHB_MST_MMIO_HSIZE  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HSIZE ),
         .AHB_MST_MMIO_HBURST ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HBURST ),
         .AHB_MST_MMIO_HPROT  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HPROT ),
         .AHB_MST_MMIO_HWDATA ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HWDATA ),
+        .AHB_MST_MMIO_HLOCK  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HLOCK ),
         .AHB_MST_MEM_HTRANS  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HTRANS ),
+        .AHB_MST_MEM_HWRITE  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HWRITE ),
         .AHB_MST_MEM_HADDR   ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HADDR ),
         .AHB_MST_MEM_HSIZE   ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HSIZE ),
         .AHB_MST_MEM_HBURST  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HBURST ),
         .AHB_MST_MEM_HPROT   ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HPROT ),
+        .AHB_MST_MEM_HLOCK   ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HLOCK ),
         .AHB_MST_MEM_HWDATA  ( MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HWDATA ) 
         );
 
-//--------MSS_SUBSYSTEM_sb_0_sb
-MSS_SUBSYSTEM_sb_0_sb MSS_SUBSYSTEM_sb_0_sb_0(
+//--------MSS_SUBSYSTEM_sb
+MSS_SUBSYSTEM_sb MSS_SUBSYSTEM_sb_0(
         // Inputs
         .MDDR_DQS_TMATCH_0_IN       ( MDDR_DQS_TMATCH_0_IN ),
         .FAB_RESET_N                ( VCC_net ),
@@ -1980,10 +1980,10 @@ MSS_SUBSYSTEM_sb_0_sb MSS_SUBSYSTEM_sb_0_sb_0(
         .MDDR_RESET_N               ( MDDR_RESET_N_net_0 ),
         .MDDR_WE_N                  ( MDDR_WE_N_net_0 ),
         .POWER_ON_RESET_N           (  ),
-        .INIT_DONE                  ( MSS_SUBSYSTEM_sb_0_sb_0_INIT_DONE ),
+        .INIT_DONE                  ( MSS_SUBSYSTEM_sb_0_INIT_DONE ),
         .MSS_DDR_FIC_SUBSYSTEM_CLK  (  ),
         .MSS_DDR_FIC_SUBSYSTEM_LOCK (  ),
-        .FIC_0_CLK                  ( MSS_SUBSYSTEM_sb_0_sb_0_FIC_0_CLK_0 ),
+        .FIC_0_CLK                  ( MSS_SUBSYSTEM_sb_0_FIC_0_CLK ),
         .FIC_0_LOCK                 (  ),
         .DDR_READY                  (  ),
         .FAB_CCC_GL1                (  ),

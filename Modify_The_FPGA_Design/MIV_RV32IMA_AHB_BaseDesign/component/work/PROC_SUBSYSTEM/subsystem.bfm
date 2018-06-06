@@ -1,5 +1,5 @@
 #===========================================================
-# Created by Microsemi SmartDesign Fri Nov 17 14:37:25 2017
+# Created by Microsemi SmartDesign Wed Jun 06 14:57:29 2018
 #
 # Syntax: 
 # ------- 
@@ -17,7 +17,7 @@
 # Define name and base address of each resource.
 #-----------------------------------------------------------
 
-memmap MSS_SUBSYSTEM_sb_0_sb_MSS_0 0x40020800;
+memmap MSS_SUBSYSTEM_sb_MSS_0 0x40020800;
 #-----------------------------------------------------------
 # Include resource scriptlets
 #-----------------------------------------------------------
@@ -27,7 +27,7 @@ memmap MSS_SUBSYSTEM_sb_0_sb_MSS_0 0x40020800;
 #-----------------------------------------------------------
 # Secondary subsystems.  To test this subsystem, uncomment the following code.
 #-----------------------------------------------------------
-# memmap MSS_SUBSYSTEM_sb_0_sb_0 0x60000000;
+# memmap MSS_SUBSYSTEM_sb_0 0x60000000;
 # memmap CoreUARTapb_0 0x70001000;
 # memmap CoreGPIO_IN 0x70002000;
 # memmap CoreTimer_0 0x70003000;
@@ -42,7 +42,7 @@ memmap MSS_SUBSYSTEM_sb_0_sb_MSS_0 0x40020800;
 #-----------------------------------------------------------
 # Secondary subsystems.  To test this subsystem, uncomment the following code.
 #-----------------------------------------------------------
-# memmap MSS_SUBSYSTEM_sb_0_sb_0_MDDR_DDR_AMBA_SLAVE 0x80000000;
+# memmap MSS_SUBSYSTEM_sb_0_MDDR_DDR_AMBA_SLAVE 0x80000000;
 #-----------------------------------------------------------
 # Include resource scriptlets
 #-----------------------------------------------------------

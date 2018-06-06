@@ -1,6 +1,6 @@
 DESIGN=PROC_SUBSYSTEM
-DESDIR=C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM
-TARGET_DIR=C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM
+DESDIR=C:\Users\ciaran.lappin\Desktop\ExtHelp\TimMorin\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM
+TARGET_DIR=C:\Users\ciaran.lappin\Desktop\ExtHelp\TimMorin\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM
 FAM=SmartFusion2
 DIE=PA4M6000_N
 PACKAGE=fg484

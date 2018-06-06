@@ -9,19 +9,19 @@ Part:			M2S060FBGA484STD (Microsemi)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5641               100 %                
+SLE      5638               100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM:	5641 (30.78 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM:	5638 (30.87 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           10882              100 %                
-ARI1          1139               100 %                
-BLACK BOX     403                100 %                
+CFG           10840              100 %                
+ARI1          1125               100 %                
+BLACK BOX     401                100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM:	12424 (67.79 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM:	12366 (67.70 % Utilization)
 
 
 DSP
@@ -72,10 +72,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREAHBTOAPB3_19s_0s:	99 (
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           51                 0.4690 %             
-BLACK BOX     42                 10.4 %               
+CFG           49                 0.4520 %             
+BLACK BOX     42                 10.5 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAHBTOAPB3_19s_0s:	93 (0.51 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREAHBTOAPB3_19s_0s:	91 (0.50 % Utilization)
 
 -----------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAHBtoAPB3_AhbToApbSM_0s_0_1_0_1_2_3_4   ########
@@ -93,10 +93,10 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_AhbToA
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           29                 0.2660 %             
-BLACK BOX     1                  0.2480 %             
+CFG           27                 0.2490 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_AhbToApbSM_0s_0_1_0_1_2_3_4:	30 (0.16 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_AhbToApbSM_0s_0_1_0_1_2_3_4:	28 (0.15 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAHBtoAPB3_ApbAddrData_0s   ########
@@ -114,8 +114,8 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_ApbAdd
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           20                 0.1840 %             
-BLACK BOX     40                 9.93 %               
+CFG           20                 0.1850 %             
+BLACK BOX     40                 9.98 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_ApbAddrData_0s:	60 (0.33 % Utilization)
 
@@ -135,8 +135,8 @@ Total SEQUENTIAL ELEMENTS in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_Penabl
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01840 %            
-BLACK BOX     1                  0.2480 %             
+CFG           2                  0.01850 %            
+BLACK BOX     1                  0.2490 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block COREAHBTOAPB3_19s_0s.CoreAHBtoAPB3_PenableScheduler_0s_0_1_2:	3 (0.02 % Utilization)
 
@@ -156,10 +156,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.COREJTAGDEBUG_85_1s:	16 (0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           106                0.9740 %             
-BLACK BOX     8                  1.99 %               
+CFG           104                0.9590 %             
+BLACK BOX     8                  2 %                  
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREJTAGDEBUG_85_1s:	114 (0.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.COREJTAGDEBUG_85_1s:	112 (0.61 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -185,10 +185,314 @@ Total SEQUENTIAL ELEMENTS in the block COREJTAGDEBUG_85_1s.uj_jtag_85:	16 (0.09 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           104                0.9560 %             
-BLACK BOX     6                  1.49 %               
+CFG           102                0.9410 %             
+BLACK BOX     6                  1.5 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block COREJTAGDEBUG_85_1s.uj_jtag_85:	110 (0.60 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREJTAGDEBUG_85_1s.uj_jtag_85:	108 (0.59 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   CoreAHBLite_Z4   ########
+Instance path:   PROC_SUBSYSTEM.CoreAHBLite_Z4                      
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      64                 1.14 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreAHBLite_Z4:	64 (0.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           222                2.05 %               
+BLACK BOX     15                 3.74 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAHBLite_Z4:	237 (1.30 % Utilization)
+
+-----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s   ########
+Instance path:   CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s                      
+===============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      64                 1.14 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s:	64 (0.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           222                2.05 %               
+BLACK BOX     15                 3.74 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s:	237 (1.30 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0   ########     
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0
+=====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      45                 0.7980 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0:	45 (0.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           82                 0.7560 %             
+BLACK BOX     1                  0.2490 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0:	83 (0.45 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1   ########      
+Instance path:   COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.01770 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1:	1 (0.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.009230 %           
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0   ########     
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      12                 0.2130 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0:	12 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           85                 0.7840 %             
+BLACK BOX     6                  1.5 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0:	91 (0.50 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_2   ########
+Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3_2       
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      11                 0.1950 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3_2:	11 (0.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           36                 0.3320 %             
+BLACK BOX     3                  0.7480 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3_2:	39 (0.21 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_0   ########     
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.1240 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	7 (0.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           55                 0.5070 %             
+BLACK BOX     8                  2 %                  
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	63 (0.34 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_2_0   ########
+Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_2_0     
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  0.1060 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_2_0:	6 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           9                  0.0830 %             
+BLACK BOX     5                  1.25 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_2_0:	14 (0.08 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   CoreAHBLite_Z7   ########
+Instance path:   PROC_SUBSYSTEM.CoreAHBLite_Z7                      
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      60                 1.06 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreAHBLite_Z7:	60 (0.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           201                1.85 %               
+BLACK BOX     8                  2 %                  
+======================================================
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreAHBLite_Z7:	209 (1.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s   ########
+Instance path:   CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s                      
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      60                 1.06 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	60 (0.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           201                1.85 %               
+BLACK BOX     8                  2 %                  
+======================================================
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	209 (1.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0   ########       
+Instance path:   COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0
+=========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      56                 0.9930 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0:	56 (0.31 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           126                1.16 %               
+BLACK BOX     1                  0.2490 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0:	127 (0.70 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_ADDRDEC_Z5   ########        
+Instance path:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z5
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      4                  0.03690 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z5:	4 (0.02 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0   ########        
+Instance path:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.01770 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.009230 %           
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_1   ########       
+Instance path:   COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.07090 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	4 (0.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           75                 0.6920 %             
+BLACK BOX     7                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	82 (0.45 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_2_1   ########
+Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2_1     
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.05320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2_1:	3 (0.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           40                 0.3690 %             
+BLACK BOX     4                  0.9980 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2_1:	44 (0.24 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreAPB3_Z8   ########
@@ -224,16 +528,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      118                2.09 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	118 (0.64 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	118 (0.65 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      89                 0.8180 %             
-ARI1     44                 3.86 %               
+CFG      88                 0.8120 %             
+ARI1     44                 3.91 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	133 (0.73 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s:	132 (0.72 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreTimer_32s_1s_19s_0s_0   ########
@@ -245,38 +549,38 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      118                2.09 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_0:	118 (0.64 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_0:	118 (0.65 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      89                 0.8180 %             
-ARI1     44                 3.86 %               
+CFG      89                 0.8210 %             
+ARI1     44                 3.91 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.CoreTimer_32s_1s_19s_0s_0:	133 (0.73 % Utilization)
 
----------------------------------------------------------------------------
-########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_0_sb   ########
-Instance path:   PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb_0_sb                      
-===========================================================================
+----------------------------------------------------------------------
+########   Utilization report for  cell:   MSS_SUBSYSTEM_sb   ########
+Instance path:   PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb                      
+======================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      133                2.36 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb_0_sb:	133 (0.73 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb:	133 (0.73 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           67                 0.6160 %             
-ARI1          14                 1.23 %               
-BLACK BOX     125                31 %                 
+CFG           67                 0.6180 %             
+ARI1          14                 1.24 %               
+BLACK BOX     123                30.7 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb_0_sb:	206 (1.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb:	204 (1.12 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -284,7 +588,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     7                  63.6 %               
 ===================================================
-Total GLOBAL BUFFERS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb_0_sb:	7 (0.04 % Utilization)
+Total GLOBAL BUFFERS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb:	7 (0.04 % Utilization)
 
 
 IO PADS
@@ -292,11 +596,11 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       49                 83.1 %               
 =================================================
-Total IO PADS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb_0_sb:	49 (0.27 % Utilization)
+Total IO PADS in the block PROC_SUBSYSTEM.MSS_SUBSYSTEM_sb:	49 (0.27 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreConfigP_Z12   ########
-Instance path:   MSS_SUBSYSTEM_sb_0_sb.CoreConfigP_Z12               
+Instance path:   MSS_SUBSYSTEM_sb.CoreConfigP_Z12                    
 =====================================================================
 
 SEQUENTIAL ELEMENTS
@@ -304,20 +608,20 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      74                 1.31 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block MSS_SUBSYSTEM_sb_0_sb.CoreConfigP_Z12:	74 (0.40 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block MSS_SUBSYSTEM_sb.CoreConfigP_Z12:	74 (0.41 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           44                 0.4040 %             
-BLACK BOX     56                 13.9 %               
+CFG           44                 0.4060 %             
+BLACK BOX     56                 14 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb_0_sb.CoreConfigP_Z12:	100 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.CoreConfigP_Z12:	100 (0.55 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreResetP_Z13   ########
-Instance path:   MSS_SUBSYSTEM_sb_0_sb.CoreResetP_Z13               
+Instance path:   MSS_SUBSYSTEM_sb.CoreResetP_Z13                    
 ====================================================================
 
 SEQUENTIAL ELEMENTS
@@ -325,17 +629,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      59                 1.05 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block MSS_SUBSYSTEM_sb_0_sb.CoreResetP_Z13:	59 (0.32 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block MSS_SUBSYSTEM_sb.CoreResetP_Z13:	59 (0.32 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           22                 0.2020 %             
-ARI1          14                 1.23 %               
-BLACK BOX     62                 15.4 %               
+CFG           22                 0.2030 %             
+ARI1          14                 1.24 %               
+BLACK BOX     62                 15.5 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb_0_sb.CoreResetP_Z13:	98 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.CoreResetP_Z13:	98 (0.54 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -343,19 +647,19 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     3                  27.3 %               
 ===================================================
-Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb_0_sb.CoreResetP_Z13:	3 (0.02 % Utilization)
+Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb.CoreResetP_Z13:	3 (0.02 % Utilization)
 
---------------------------------------------------------------------------------------
-########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_0_sb_CCC_0_FCCC   ########
-Instance path:   MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_CCC_0_FCCC               
-======================================================================================
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_CCC_0_FCCC   ########
+Instance path:   MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_CCC_0_FCCC                    
+=================================================================================
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     1                  0.2480 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_CCC_0_FCCC:	1 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_CCC_0_FCCC:	1 (0.01 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -363,19 +667,19 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  9.09 %               
 ===================================================
-Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_CCC_0_FCCC:	1 (0.01 % Utilization)
+Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_CCC_0_FCCC:	1 (0.01 % Utilization)
 
-----------------------------------------------------------------------------------------
-########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_0_sb_FABOSC_0_OSC   ########
-Instance path:   MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_FABOSC_0_OSC               
-========================================================================================
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_FABOSC_0_OSC   ########
+Instance path:   MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_FABOSC_0_OSC                    
+===================================================================================
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     2                  0.4960 %             
+BLACK BOX     2                  0.4990 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_FABOSC_0_OSC:	2 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_FABOSC_0_OSC:	2 (0.01 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -383,20 +687,20 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  9.09 %               
 ===================================================
-Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_FABOSC_0_OSC:	1 (0.01 % Utilization)
+Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_FABOSC_0_OSC:	1 (0.01 % Utilization)
 
--------------------------------------------------------------------------------
-########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_0_sb_MSS   ########
-Instance path:   MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_MSS               
-===============================================================================
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   MSS_SUBSYSTEM_sb_MSS   ########
+Instance path:   MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_MSS                    
+==========================================================================
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1                  0.009190 %           
-BLACK BOX     2                  0.4960 %             
+CFG           1                  0.009230 %           
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_MSS:	3 (0.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_MSS:	2 (0.01 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -404,7 +708,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  18.2 %               
 ===================================================
-Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_MSS:	2 (0.01 % Utilization)
+Total GLOBAL BUFFERS in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_MSS:	2 (0.01 % Utilization)
 
 
 IO PADS
@@ -412,311 +716,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       49                 83.1 %               
 =================================================
-Total IO PADS in the block MSS_SUBSYSTEM_sb_0_sb.MSS_SUBSYSTEM_sb_0_sb_MSS:	49 (0.27 % Utilization)
-
--------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4   ########
-Instance path:   PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4                      
-=================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      64                 1.13 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4:	64 (0.35 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           222                2.04 %               
-BLACK BOX     15                 3.72 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4:	237 (1.29 % Utilization)
-
-------------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s   ########       
-Instance path:   PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s
-======================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      64                 1.13 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s:	64 (0.35 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           222                2.04 %               
-BLACK BOX     15                 3.72 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreAHBLite_0_CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s:	237 (1.29 % Utilization)
-
------------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0   ########     
-Instance path:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0
-=====================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      45                 0.7980 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0:	45 (0.25 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           82                 0.7540 %             
-BLACK BOX     1                  0.2480 %             
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0:	83 (0.45 % Utilization)
-
----------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1   ########      
-Instance path:   COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1
-=============================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      1                  0.01770 %            
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1:	1 (0.01 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      1                  0.009190 %           
-=================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_0_192_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1:	1 (0.01 % Utilization)
-
-----------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0   ########     
-Instance path:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0
-========================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      12                 0.2130 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0:	12 (0.07 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           85                 0.7810 %             
-BLACK BOX     6                  1.49 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0:	91 (0.50 % Utilization)
-
------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_2   ########
-Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3_2       
-===================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      11                 0.1950 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3_2:	11 (0.06 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           36                 0.3310 %             
-BLACK BOX     3                  0.7440 %             
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0.COREAHBLITE_SLAVEARBITER_Z3_2:	39 (0.21 % Utilization)
-
-------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_0   ########     
-Instance path:   COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0
-==========================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      7                  0.1240 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	7 (0.04 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           55                 0.5050 %             
-BLACK BOX     8                  1.99 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_0_192_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	63 (0.34 % Utilization)
-
--------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_2_0   ########
-Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_2_0     
-=====================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      6                  0.1060 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_2_0:	6 (0.03 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           9                  0.08270 %            
-BLACK BOX     5                  1.24 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z3_2_0:	14 (0.08 % Utilization)
-
--------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7   ########
-Instance path:   PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7                      
-=================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      60                 1.06 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7:	60 (0.33 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           202                1.86 %               
-BLACK BOX     8                  1.99 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7:	210 (1.15 % Utilization)
-
---------------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s   ########       
-Instance path:   PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s
-========================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      60                 1.06 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	60 (0.33 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           202                1.86 %               
-BLACK BOX     8                  1.99 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreAHBLite_1_CoreAHBLite_Z7.COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s:	210 (1.15 % Utilization)
-
----------------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0   ########       
-Instance path:   COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0
-=========================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      56                 0.9930 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0:	56 (0.31 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           127                1.17 %               
-BLACK BOX     1                  0.2480 %             
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0:	128 (0.70 % Utilization)
-
-------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_ADDRDEC_Z5   ########        
-Instance path:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z5
-====================================================================================
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      6                  0.05510 %            
-=================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z5:	6 (0.03 % Utilization)
-
--------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0   ########        
-Instance path:   COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0
-=================================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      1                  0.01770 %            
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.01 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      1                  0.009190 %           
-=================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_0_1_0_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.01 % Utilization)
-
---------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_1   ########       
-Instance path:   COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1
-============================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      4                  0.07090 %            
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	4 (0.02 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           75                 0.6890 %             
-BLACK BOX     7                  1.74 %               
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_0_1_0_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	82 (0.45 % Utilization)
-
--------------------------------------------------------------------------------------
-########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_2_1   ########
-Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2_1     
-=====================================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      3                  0.05320 %            
-=================================================
-Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2_1:	3 (0.02 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name          Total elements     Utilization     Notes
-------------------------------------------------------
-CFG           40                 0.3680 %             
-BLACK BOX     4                  0.9930 %             
-======================================================
-Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_2_1:	44 (0.24 % Utilization)
+Total IO PADS in the block MSS_SUBSYSTEM_sb.MSS_SUBSYSTEM_sb_MSS:	49 (0.27 % Utilization)
 
 --------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreGPIO_IN_CoreGPIO_Z9   ########
@@ -734,7 +734,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_IN
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.09190 %            
+CFG      10                 0.09230 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_IN_CoreGPIO_Z9:	10 (0.05 % Utilization)
 
@@ -746,15 +746,15 @@ Instance path:   PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_OUT_CoreGPIO_Z10
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      32                 0.5670 %             
+SLE      32                 0.5680 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_OUT_CoreGPIO_Z10:	32 (0.17 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_OUT_CoreGPIO_Z10:	32 (0.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreGPIO_OUT_CoreGPIO_Z10:	2 (0.01 % Utilization)
 
@@ -774,11 +774,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreUARTapb
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           144                1.32 %               
-ARI1          19                 1.67 %               
-BLACK BOX     4                  0.9930 %             
+CFG           143                1.32 %               
+ARI1          19                 1.69 %               
+BLACK BOX     4                  0.9980 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z11:	167 (0.91 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z11:	166 (0.91 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s   ########        
@@ -796,11 +796,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           117                1.08 %               
-ARI1          19                 1.67 %               
-BLACK BOX     4                  0.9930 %             
+CFG           116                1.07 %               
+ARI1          19                 1.69 %               
+BLACK BOX     4                  0.9980 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z11.PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s:	140 (0.76 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_CoreUARTapb_Z11.PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s:	139 (0.76 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreUARTapb_0_Clock_gen_0s_0s   ########                    
@@ -818,8 +818,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.09190 %            
-ARI1     14                 1.23 %               
+CFG      10                 0.09230 %            
+ARI1     14                 1.24 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Clock_gen_0s_0s:	24 (0.13 % Utilization)
 
@@ -839,10 +839,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           78                 0.7170 %             
-BLACK BOX     3                  0.7440 %             
+CFG           77                 0.710 %              
+BLACK BOX     3                  0.7480 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Rx_async_0s_0s_0s_1s_2s_3s:	81 (0.44 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Rx_async_0s_0s_0s_1s_2s_3s:	80 (0.44 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_CoreUARTapb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s   ########                    
@@ -861,8 +861,8 @@ COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 CFG           24                 0.2210 %             
-ARI1          5                  0.4390 %             
-BLACK BOX     1                  0.2480 %             
+ARI1          5                  0.4440 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_CoreUARTapb_0_COREUART_0s_0s_0s_19s_0s_0s.PROC_SUBSYSTEM_CoreUARTapb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s:	30 (0.16 % Utilization)
 
@@ -874,19 +874,19 @@ Instance path:   PROC_SUBSYSTEM.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      4843               85.9 %               
+SLE      4840               85.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s:	4843 (26.43 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s:	4840 (26.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           9776               89.8 %               
-ARI1          1018               89.4 %               
-BLACK BOX     201                49.9 %               
+CFG           9741               89.9 %               
+ARI1          1004               89.2 %               
+BLACK BOX     201                50.1 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s:	10995 (60.00 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s:	10946 (59.93 % Utilization)
 
 
 DSP
@@ -921,19 +921,19 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      4843               85.9 %               
+SLE      4840               85.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP:	4843 (26.43 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP:	4840 (26.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           9776               89.8 %               
-ARI1          1018               89.4 %               
-BLACK BOX     201                49.9 %               
+CFG           9741               89.9 %               
+ARI1          1004               89.2 %               
+BLACK BOX     201                50.1 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP:	10995 (60.00 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_24576_0_2s_5s_34s_2s.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP:	10946 (59.93 % Utilization)
 
 
 DSP
@@ -970,16 +970,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      129                2.29 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT:	129 (0.70 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT:	129 (0.71 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      109                1 %                  
-ARI1     192                16.9 %               
+CFG      103                0.950 %              
+ARI1     192                17.1 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT:	301 (1.64 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT:	295 (1.62 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG   ########                                     
@@ -989,17 +989,17 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RIS
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      173                3.07 %               
+SLE      170                3.02 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG:	173 (0.94 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG:	170 (0.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      243                2.23 %               
+CFG      237                2.19 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG:	243 (1.33 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG:	237 (1.30 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_CHAIN   ########                                              
@@ -1009,15 +1009,15 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TR
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      32                 0.5670 %             
+SLE      32                 0.5680 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_CHAIN:	32 (0.17 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_CHAIN:	32 (0.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      34                 0.3120 %             
+CFG      34                 0.3140 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_CHAIN:	34 (0.19 % Utilization)
 
@@ -1029,15 +1029,15 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TR
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      32                 0.5670 %             
+SLE      32                 0.5680 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN:	32 (0.17 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN:	32 (0.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      34                 0.3120 %             
+CFG      34                 0.3140 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN:	34 (0.19 % Utilization)
 
@@ -1057,9 +1057,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      62                 0.570 %              
+CFG      63                 0.5810 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_1:	62 (0.34 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_1:	63 (0.34 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_BYPASS_CHAIN   ########                                              
@@ -1081,17 +1081,17 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TR
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      20                 0.3550 %             
+SLE      17                 0.3020 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER:	20 (0.11 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER:	17 (0.09 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      37                 0.340 %              
+CFG      35                 0.3230 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER:	37 (0.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER:	35 (0.19 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_2   ########                                      
@@ -1101,7 +1101,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.08860 %            
+SLE      5                  0.08870 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_2:	5 (0.03 % Utilization)
 
@@ -1109,7 +1109,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.04590 %            
+CFG      5                  0.04610 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_2:	5 (0.03 % Utilization)
 
@@ -1129,7 +1129,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      16                 0.1470 %             
+CFG      16                 0.1480 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_STATE_MACHINE:	16 (0.09 % Utilization)
 
@@ -1149,7 +1149,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.04590 %            
+CFG      5                  0.04610 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_STATE_MACHINE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_90:	5 (0.03 % Utilization)
 
@@ -1169,7 +1169,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.04590 %            
+CFG      5                  0.04610 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_90.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_68:	5 (0.03 % Utilization)
 
@@ -1229,17 +1229,17 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      10                 0.1770 %             
+SLE      7                  0.1240 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH_2:	10 (0.05 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH_2:	7 (0.04 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.09190 %            
+CFG      7                  0.06460 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH_2:	10 (0.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH_2:	7 (0.04 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_INT_XING   ########                                     
@@ -1269,7 +1269,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_RESET_CATCH_AND_SYNC_1:	1 (0.01 % Utilization)
 
@@ -1297,7 +1297,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_RESET_CATCH_AND_SYNC_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_89_1:	1 (0.01 % Utilization)
 
@@ -1325,7 +1325,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_89_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_72:	1 (0.01 % Utilization)
 
@@ -1371,17 +1371,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1955               34.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE:	1955 (10.67 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE:	1955 (10.70 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           4793               44 %                 
-ARI1          701                61.5 %               
-BLACK BOX     70                 17.4 %               
+CFG           4786               44.2 %               
+ARI1          695                61.8 %               
+BLACK BOX     70                 17.5 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE:	5564 (30.36 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE:	5551 (30.39 % Utilization)
 
 
 DSP
@@ -1422,17 +1422,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1951               34.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET:	1951 (10.65 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET:	1951 (10.68 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           4793               44 %                 
-ARI1          701                61.5 %               
-BLACK BOX     70                 17.4 %               
+CFG           4786               44.2 %               
+ARI1          695                61.8 %               
+BLACK BOX     70                 17.5 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET:	5564 (30.36 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SYNC_ROCKET_TILE_TILE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET:	5551 (30.39 % Utilization)
 
 
 DSP
@@ -1459,19 +1459,19 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_T
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      390                6.91 %               
+SLE      390                6.92 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE:	390 (2.13 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE:	390 (2.14 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           815                7.49 %               
-ARI1          120                10.5 %               
-BLACK BOX     26                 6.45 %               
+CFG           814                7.51 %               
+ARI1          120                10.7 %               
+BLACK BOX     26                 6.48 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE:	961 (5.24 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE:	960 (5.26 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1490,10 +1490,10 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      174                1.6 %                
-ARI1     64                 5.62 %               
+CFG      170                1.57 %               
+ARI1     64                 5.69 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_AMOALU:	238 (1.30 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_AMOALU:	234 (1.28 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ARBITER   ########                                 
@@ -1503,9 +1503,9 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      88                 0.8090 %             
+CFG      97                 0.8950 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ARBITER:	88 (0.48 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ARBITER:	97 (0.53 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ARBITER_1   ########                                 
@@ -1535,9 +1535,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      23                 0.2110 %             
+CFG      21                 0.1940 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DATA_ARRAY:	23 (0.13 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DATA_ARRAY:	21 (0.11 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1555,7 +1555,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      30                 0.2760 %             
+CFG      30                 0.2770 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_D_CACHE_DCACHE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLB:	30 (0.16 % Utilization)
 
@@ -1569,17 +1569,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      576                10.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND:	576 (3.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND:	576 (3.15 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           930                8.55 %               
-ARI1          60                 5.27 %               
-BLACK BOX     36                 8.93 %               
+CFG           925                8.53 %               
+ARI1          56                 4.98 %               
+BLACK BOX     36                 8.98 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND:	1026 (5.60 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND:	1017 (5.57 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1598,7 +1598,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      183                3.24 %               
+SLE      183                3.25 %               
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_I_CACHE_ICACHE:	183 (1.00 % Utilization)
 
@@ -1606,11 +1606,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           459                4.22 %               
-ARI1          30                 2.63 %               
-BLACK BOX     36                 8.93 %               
+CFG           464                4.28 %               
+ARI1          26                 2.31 %               
+BLACK BOX     36                 8.98 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_I_CACHE_ICACHE:	525 (2.86 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_I_CACHE_ICACHE:	526 (2.88 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1631,15 +1631,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      325                5.76 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE:	325 (1.77 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE:	325 (1.78 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      347                3.19 %               
+CFG      347                3.2 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE:	347 (1.89 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE:	347 (1.90 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLB_1   ########                                    
@@ -1663,17 +1663,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      972                17.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET:	972 (5.30 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET:	972 (5.32 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2926               26.9 %               
-ARI1          510                44.8 %               
-BLACK BOX     8                  1.99 %               
+CFG           2925               27 %                 
+ARI1          508                45.2 %               
+BLACK BOX     8                  2 %                  
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET:	3444 (18.79 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET:	3441 (18.84 % Utilization)
 
 
 DSP
@@ -1699,10 +1699,10 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.P
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      432                3.97 %               
-ARI1     37                 3.25 %               
+CFG      444                4.1 %                
+ARI1     33                 2.93 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ALU:	469 (2.56 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ALU:	477 (2.61 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_BREAKPOINT_UNIT   ########                         
@@ -1712,10 +1712,10 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.P
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      554                5.09 %               
-ARI1     192                16.9 %               
+CFG      586                5.41 %               
+ARI1     192                17.1 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_BREAKPOINT_UNIT:	746 (4.07 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_BREAKPOINT_UNIT:	778 (4.26 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CSR_FILE   ########                         
@@ -1727,17 +1727,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      420                7.45 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CSR_FILE:	420 (2.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CSR_FILE:	420 (2.30 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           862                7.92 %               
-ARI1          122                10.7 %               
-BLACK BOX     1                  0.2480 %             
+CFG           840                7.75 %               
+ARI1          122                10.8 %               
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CSR_FILE:	985 (5.37 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CSR_FILE:	963 (5.27 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_I_BUF   ########                         
@@ -1747,7 +1747,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.P
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_I_BUF:	1 (0.01 % Utilization)
 
@@ -1761,17 +1761,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      120                2.13 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_MUL_DIV:	120 (0.65 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_MUL_DIV:	120 (0.66 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           851                7.82 %               
-ARI1          121                10.6 %               
-BLACK BOX     1                  0.2480 %             
+CFG           835                7.7 %                
+ARI1          121                10.8 %               
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_MUL_DIV:	973 (5.31 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_MUL_DIV:	957 (5.24 % Utilization)
 
 
 DSP
@@ -1789,7 +1789,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_T
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      13                 0.230 %              
+SLE      13                 0.2310 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_TILE_BUS:	13 (0.07 % Utilization)
 
@@ -1797,8 +1797,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      122                1.12 %               
-ARI1     11                 0.9660 %             
+CFG      122                1.13 %               
+ARI1     11                 0.9780 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE_ROCKET.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_TILE_BUS:	133 (0.73 % Utilization)
 
@@ -1818,11 +1818,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           273                2.51 %               
-ARI1          19                 1.67 %               
-BLACK BOX     1                  0.2480 %             
+CFG           278                2.56 %               
+ARI1          11                 0.9780 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC:	293 (1.60 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC:	290 (1.59 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY   ########                              
@@ -1840,9 +1840,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      4                  0.03690 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY:	1 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY:	4 (0.02 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY_0   ########                              
@@ -1860,9 +1860,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      4                  0.03690 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY_0:	1 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY_0:	4 (0.02 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_13   ########                              
@@ -1880,10 +1880,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           8                  0.07350 %            
-BLACK BOX     1                  0.2480 %             
+CFG           9                  0.0830 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_13:	9 (0.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_13:	10 (0.05 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ATOMIC_AUTOMATA   ########                                     
@@ -1901,11 +1901,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           434                3.99 %               
-ARI1          32                 2.81 %               
-BLACK BOX     3                  0.7440 %             
+CFG           432                3.99 %               
+ARI1          32                 2.84 %               
+BLACK BOX     3                  0.7480 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ATOMIC_AUTOMATA:	469 (2.56 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ATOMIC_AUTOMATA:	467 (2.56 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1   ########                                     
@@ -1923,10 +1923,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           225                2.07 %               
-BLACK BOX     17                 4.22 %               
+CFG           226                2.08 %               
+BLACK BOX     17                 4.24 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1:	242 (1.32 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1:	243 (1.33 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_0   ########                              
@@ -1944,10 +1944,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           69                 0.6340 %             
-BLACK BOX     9                  2.23 %               
+CFG           70                 0.6460 %             
+BLACK BOX     9                  2.24 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_0:	78 (0.43 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_0:	79 (0.43 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1   ########                              
@@ -1959,16 +1959,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      76                 1.35 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1:	76 (0.41 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1:	76 (0.42 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           78                 0.7170 %             
-BLACK BOX     1                  0.2480 %             
+CFG           79                 0.7290 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1:	79 (0.43 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1:	80 (0.44 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_0   ########                              
@@ -1986,10 +1986,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           42                 0.3860 %             
-BLACK BOX     1                  0.2480 %             
+CFG           39                 0.360 %              
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_0:	43 (0.23 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_0:	40 (0.22 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_1   ########                              
@@ -1999,7 +1999,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFE
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      39                 0.6910 %             
+SLE      39                 0.6920 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_1:	39 (0.21 % Utilization)
 
@@ -2007,10 +2007,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.06430 %            
-BLACK BOX     2                  0.4960 %             
+CFG           8                  0.07380 %            
+BLACK BOX     2                  0.4990 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_1:	9 (0.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_1_1:	10 (0.05 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_4   ########                              
@@ -2029,7 +2029,7 @@ COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 CFG           11                 0.1010 %             
-BLACK BOX     1                  0.2480 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_4:	12 (0.07 % Utilization)
 
@@ -2049,10 +2049,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           10                 0.09190 %            
-BLACK BOX     1                  0.2480 %             
+CFG           9                  0.0830 %             
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_5:	11 (0.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_5:	10 (0.05 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_7   ########                              
@@ -2062,7 +2062,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFE
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.08860 %            
+SLE      5                  0.08870 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_7:	5 (0.03 % Utilization)
 
@@ -2070,8 +2070,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.06430 %            
-BLACK BOX     2                  0.4960 %             
+CFG           7                  0.06460 %            
+BLACK BOX     2                  0.4990 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_7:	9 (0.05 % Utilization)
 
@@ -2091,9 +2091,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      3                  0.02770 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_8:	1 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_8:	3 (0.02 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2   ########                                     
@@ -2105,16 +2105,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      222                3.94 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2:	222 (1.21 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2:	222 (1.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           124                1.14 %               
-BLACK BOX     12                 2.98 %               
+CFG           125                1.15 %               
+BLACK BOX     12                 2.99 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2:	136 (0.74 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2:	137 (0.75 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_0   ########                              
@@ -2132,10 +2132,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           46                 0.4230 %             
-BLACK BOX     2                  0.4960 %             
+CFG           47                 0.4340 %             
+BLACK BOX     2                  0.4990 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_0:	48 (0.26 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_0:	49 (0.27 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_9   ########                              
@@ -2153,8 +2153,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           78                 0.7170 %             
-BLACK BOX     10                 2.48 %               
+CFG           78                 0.720 %              
+BLACK BOX     10                 2.49 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_2.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_9:	88 (0.48 % Utilization)
 
@@ -2175,7 +2175,7 @@ COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 CFG           14                 0.1290 %             
-BLACK BOX     4                  0.9930 %             
+BLACK BOX     4                  0.9980 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_ERROR:	18 (0.10 % Utilization)
 
@@ -2195,8 +2195,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.06430 %            
-BLACK BOX     1                  0.2480 %             
+CFG           7                  0.06460 %            
+BLACK BOX     1                  0.2490 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_23:	8 (0.04 % Utilization)
 
@@ -2216,8 +2216,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02760 %            
-BLACK BOX     1                  0.2480 %             
+CFG           3                  0.02770 %            
+BLACK BOX     1                  0.2490 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_24:	4 (0.02 % Utilization)
 
@@ -2229,7 +2229,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFE
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.08860 %            
+SLE      5                  0.08870 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_26:	5 (0.03 % Utilization)
 
@@ -2237,8 +2237,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           4                  0.03680 %            
-BLACK BOX     2                  0.4960 %             
+CFG           4                  0.03690 %            
+BLACK BOX     2                  0.4990 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_26:	6 (0.03 % Utilization)
 
@@ -2252,14 +2252,14 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      389                6.9 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS:	389 (2.12 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS:	389 (2.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           232                2.13 %               
-BLACK BOX     8                  1.99 %               
+CFG           232                2.14 %               
+BLACK BOX     8                  2 %                  
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS:	240 (1.31 % Utilization)
 
@@ -2271,7 +2271,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFE
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      161                2.85 %               
+SLE      161                2.86 %               
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_14:	161 (0.88 % Utilization)
 
@@ -2279,10 +2279,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           88                 0.8090 %             
-BLACK BOX     2                  0.4960 %             
+CFG           94                 0.8670 %             
+BLACK BOX     2                  0.4990 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_14:	90 (0.49 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_14:	96 (0.53 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_15   ########                                       
@@ -2300,10 +2300,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           57                 0.5240 %             
-BLACK BOX     2                  0.4960 %             
+CFG           56                 0.5170 %             
+BLACK BOX     2                  0.4990 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_15:	59 (0.32 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_15:	58 (0.32 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_16   ########                                       
@@ -2321,9 +2321,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4                  0.03680 %            
+CFG      3                  0.02770 %            
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_16:	4 (0.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_16:	3 (0.02 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_17   ########                                       
@@ -2335,16 +2335,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      127                2.25 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_17:	127 (0.69 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_17:	127 (0.70 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           70                 0.6430 %             
-BLACK BOX     4                  0.9930 %             
+CFG           66                 0.6090 %             
+BLACK BOX     4                  0.9980 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_17:	74 (0.40 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_17:	70 (0.38 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_18   ########                                       
@@ -2362,7 +2362,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      13                 0.1190 %             
+CFG      13                 0.120 %              
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_BUFFER_SYSTEM_BUS.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_18:	13 (0.07 % Utilization)
 
@@ -2382,9 +2382,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      155                1.42 %               
+CFG      169                1.56 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK:	155 (0.85 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK:	169 (0.93 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_1   ########                                
@@ -2394,7 +2394,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      13                 0.230 %              
+SLE      13                 0.2310 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_1:	13 (0.07 % Utilization)
 
@@ -2402,9 +2402,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      14                 0.1290 %             
+CFG      13                 0.120 %              
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_1:	14 (0.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_1:	13 (0.07 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_2   ########                                
@@ -2414,7 +2414,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.08860 %            
+SLE      5                  0.08870 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_2:	5 (0.03 % Utilization)
 
@@ -2422,7 +2422,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.09190 %            
+CFG      10                 0.09230 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_CACHE_CORK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_10_2:	10 (0.05 % Utilization)
 
@@ -2436,17 +2436,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      795                14.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG:	795 (4.34 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG:	795 (4.35 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1777               16.3 %               
-ARI1          14                 1.23 %               
-BLACK BOX     19                 4.71 %               
+CFG           1796               16.6 %               
+ARI1          14                 1.24 %               
+BLACK BOX     19                 4.74 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG:	1810 (9.88 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG:	1829 (10.01 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER   ########                                        
@@ -2458,17 +2458,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      672                11.9 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER:	672 (3.67 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER:	672 (3.68 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1682               15.5 %               
-ARI1          14                 1.23 %               
-BLACK BOX     12                 2.98 %               
+CFG           1707               15.7 %               
+ARI1          14                 1.24 %               
+BLACK BOX     12                 2.99 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER:	1708 (9.32 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER:	1733 (9.49 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_2   ########                                                       
@@ -2478,7 +2478,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.4250 %             
+SLE      24                 0.4260 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_2:	24 (0.13 % Utilization)
 
@@ -2486,7 +2486,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.02760 %            
+CFG      3                  0.02770 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_2:	3 (0.02 % Utilization)
 
@@ -2914,8 +2914,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           5                  0.04590 %            
-BLACK BOX     11                 2.73 %               
+CFG           5                  0.04610 %            
+BLACK BOX     11                 2.74 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SINK:	16 (0.09 % Utilization)
 
@@ -2927,7 +2927,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      46                 0.8150 %             
+SLE      46                 0.8160 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SINK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_1:	46 (0.25 % Utilization)
 
@@ -2935,8 +2935,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02760 %            
-BLACK BOX     6                  1.49 %               
+CFG           3                  0.02770 %            
+BLACK BOX     6                  1.5 %                
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SINK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_1:	9 (0.05 % Utilization)
 
@@ -3076,8 +3076,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01840 %            
-BLACK BOX     5                  1.24 %               
+CFG           2                  0.01850 %            
+BLACK BOX     5                  1.25 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SINK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_2:	7 (0.04 % Utilization)
 
@@ -3209,19 +3209,19 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      562                9.96 %               
+SLE      562                9.97 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_DM_INNER:	562 (3.07 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_DM_INNER:	562 (3.08 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1674               15.4 %               
-ARI1          14                 1.23 %               
-BLACK BOX     1                  0.2480 %             
+CFG           1699               15.7 %               
+ARI1          14                 1.24 %               
+BLACK BOX     1                  0.2490 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_DM_INNER:	1689 (9.22 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_ASYNC_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_INNER_DM_INNER:	1714 (9.38 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER   ########                                        
@@ -3239,10 +3239,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           95                 0.8730 %             
-BLACK BOX     7                  1.74 %               
+CFG           89                 0.8210 %             
+BLACK BOX     7                  1.75 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER:	102 (0.56 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_DEBUG.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER:	96 (0.53 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1   ########                                                       
@@ -3252,7 +3252,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.4250 %             
+SLE      24                 0.4260 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1:	24 (0.13 % Utilization)
 
@@ -3260,7 +3260,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4                  0.03680 %            
+CFG      4                  0.03690 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1:	4 (0.02 % Utilization)
 
@@ -3280,7 +3280,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_24:	1 (0.01 % Utilization)
 
@@ -3300,7 +3300,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_24.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_56:	1 (0.01 % Utilization)
 
@@ -3392,7 +3392,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_28:	2 (0.01 % Utilization)
 
@@ -3412,7 +3412,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_28.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_60:	2 (0.01 % Utilization)
 
@@ -3652,9 +3652,9 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      33                 0.3030 %             
+CFG      32                 0.2950 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DMI_TO_TL_DMI2TL:	33 (0.18 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_DMI_TO_TL_DMI2TL:	32 (0.18 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER   ########                                                       
@@ -3672,10 +3672,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           8                  0.07350 %            
-BLACK BOX     7                  1.74 %               
+CFG           5                  0.04610 %            
+BLACK BOX     7                  1.75 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER:	15 (0.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER:	12 (0.07 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK   ########                                                    
@@ -3693,10 +3693,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           6                  0.05510 %            
-BLACK BOX     5                  1.24 %               
+CFG           3                  0.02770 %            
+BLACK BOX     5                  1.25 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK:	11 (0.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK:	8 (0.04 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_12   ########                                   
@@ -3714,9 +3714,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      1                  0.009230 %           
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_12:	2 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_12:	1 (0.01 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_44   ########                                             
@@ -3734,9 +3734,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      1                  0.009230 %           
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_12.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_44:	2 (0.01 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_12.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_44:	1 (0.01 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_13   ########                                   
@@ -3842,7 +3842,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      46                 0.8150 %             
+SLE      46                 0.8160 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE:	46 (0.25 % Utilization)
 
@@ -3850,8 +3850,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.01840 %            
-BLACK BOX     2                  0.4960 %             
+CFG           2                  0.01850 %            
+BLACK BOX     2                  0.4990 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ASYNC_CROSSING_SOURCE_DM_INNER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE:	4 (0.02 % Utilization)
 
@@ -3871,7 +3871,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_0:	1 (0.01 % Utilization)
 
@@ -3891,7 +3891,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_0.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_32:	1 (0.01 % Utilization)
 
@@ -3983,7 +3983,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_4:	1 (0.01 % Utilization)
 
@@ -4003,7 +4003,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_1_2_4.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_36:	1 (0.01 % Utilization)
 
@@ -4023,9 +4023,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      44                 0.4040 %             
+CFG      39                 0.360 %              
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_DM_OUTER:	44 (0.24 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_DM_OUTER:	39 (0.21 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC   ########                                                 
@@ -4043,7 +4043,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 0.1840 %             
+CFG      20                 0.1850 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC:	20 (0.11 % Utilization)
 
@@ -4063,7 +4063,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.02760 %            
+CFG      3                  0.02770 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2:	3 (0.02 % Utilization)
 
@@ -4083,7 +4083,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_0:	1 (0.01 % Utilization)
 
@@ -4103,7 +4103,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_15:	1 (0.01 % Utilization)
 
@@ -4123,7 +4123,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_16:	1 (0.01 % Utilization)
 
@@ -4143,7 +4143,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_17:	1 (0.01 % Utilization)
 
@@ -4163,7 +4163,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_18:	1 (0.01 % Utilization)
 
@@ -4183,7 +4183,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_19:	1 (0.01 % Utilization)
 
@@ -4203,7 +4203,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_20:	2 (0.01 % Utilization)
 
@@ -4223,7 +4223,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_21:	2 (0.01 % Utilization)
 
@@ -4243,7 +4243,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_22:	2 (0.01 % Utilization)
 
@@ -4263,7 +4263,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_23:	2 (0.01 % Utilization)
 
@@ -4283,7 +4283,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.01840 %            
+CFG      2                  0.01850 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_24:	2 (0.01 % Utilization)
 
@@ -4303,7 +4303,7 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.009190 %           
+CFG      1                  0.009230 %           
 =================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_2_29:	1 (0.01 % Utilization)
 
@@ -4359,9 +4359,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      6                  0.05510 %            
+CFG      9                  0.0830 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_DMI_XBAR:	6 (0.03 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_DEBUG_MODULE_OUTER_ASYNC_DM_OUTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_DMI_XBAR:	9 (0.05 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR_ERROR   ########                                     
@@ -4379,11 +4379,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           73                 0.6710 %             
-ARI1          43                 3.78 %               
-BLACK BOX     5                  1.24 %               
+CFG           74                 0.6830 %             
+ARI1          43                 3.82 %               
+BLACK BOX     5                  1.25 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR_ERROR:	121 (0.66 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR_ERROR:	122 (0.67 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_21   ########                                 
@@ -4401,8 +4401,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           3                  0.02760 %            
-BLACK BOX     1                  0.2480 %             
+CFG           3                  0.02770 %            
+BLACK BOX     1                  0.2490 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_21:	4 (0.02 % Utilization)
 
@@ -4414,7 +4414,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      5                  0.08860 %            
+SLE      5                  0.08870 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_22:	5 (0.03 % Utilization)
 
@@ -4422,8 +4422,8 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           4                  0.03680 %            
-BLACK BOX     4                  0.9930 %             
+CFG           4                  0.03690 %            
+BLACK BOX     4                  0.9980 %             
 ======================================================
 Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_ERROR_ERROR.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_22:	8 (0.04 % Utilization)
 
@@ -4435,7 +4435,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RIS
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      108                1.91 %               
+SLE      108                1.92 %               
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1:	108 (0.59 % Utilization)
 
@@ -4443,10 +4443,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           212                1.95 %               
+CFG           199                1.84 %               
 BLACK BOX     47                 11.7 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1:	259 (1.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1:	246 (1.35 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_0   ########                                  
@@ -4464,10 +4464,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           24                 0.2210 %             
-BLACK BOX     21                 5.21 %               
+CFG           18                 0.1660 %             
+BLACK BOX     21                 5.24 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_0:	45 (0.25 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_0:	39 (0.21 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_1   ########                                  
@@ -4485,10 +4485,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           30                 0.2760 %             
-BLACK BOX     11                 2.73 %               
+CFG           31                 0.2860 %             
+BLACK BOX     11                 2.74 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_1:	41 (0.22 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_1:	42 (0.23 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_2   ########                                  
@@ -4506,10 +4506,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           24                 0.2210 %             
-BLACK BOX     6                  1.49 %               
+CFG           22                 0.2030 %             
+BLACK BOX     6                  1.5 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_2:	30 (0.16 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_FRAGMENTER_1.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_REPEATER_2:	28 (0.15 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB   ########                                     
@@ -4527,10 +4527,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           263                2.42 %               
-BLACK BOX     3                  0.7440 %             
+CFG           257                2.37 %               
+BLACK BOX     3                  0.7480 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB:	266 (1.45 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB:	260 (1.42 % Utilization)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_20   ########                            
@@ -4548,9 +4548,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      87                 0.7990 %             
+CFG      87                 0.8030 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_20:	87 (0.47 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_20:	87 (0.48 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB_CONVERTER   ########                                     
@@ -4568,10 +4568,10 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           311                2.86 %               
-BLACK BOX     3                  0.7440 %             
+CFG           296                2.73 %               
+BLACK BOX     3                  0.7480 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB_CONVERTER:	314 (1.71 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB_CONVERTER:	299 (1.64 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_19   ########                                      
@@ -4589,9 +4589,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      94                 0.8640 %             
+CFG      92                 0.8490 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB_CONVERTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_19:	94 (0.51 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_TO_AHB_CONVERTER.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_QUEUE_19:	92 (0.50 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_PERIPHERY_BUS   ########                                     
@@ -4609,9 +4609,9 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      322                2.96 %               
+CFG      294                2.71 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_PERIPHERY_BUS:	322 (1.76 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_PERIPHERY_BUS:	294 (1.61 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_SYSTEM_BUS   ########                                     
@@ -4621,7 +4621,7 @@ Instance path:   PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RIS
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      17                 0.3010 %             
+SLE      17                 0.3020 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_SYSTEM_BUS:	17 (0.09 % Utilization)
 
@@ -4629,11 +4629,11 @@ Total SEQUENTIAL ELEMENTS in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_R
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           209                1.92 %               
-ARI1          10                 0.8780 %             
-BLACK BOX     9                  2.23 %               
+CFG           216                1.99 %               
+ARI1          10                 0.8890 %             
+BLACK BOX     9                  2.24 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_SYSTEM_BUS:	228 (1.24 % Utilization)
+Total COMBINATIONAL LOGIC in the block PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_CORE_RISC_VAHB_TOP.PROC_SUBSYSTEM_MIV_RV32IMA_L1_AHB_0_MIV_RV32IMA_L1_AHB_TL_XBAR_SYSTEM_BUS:	235 (1.29 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

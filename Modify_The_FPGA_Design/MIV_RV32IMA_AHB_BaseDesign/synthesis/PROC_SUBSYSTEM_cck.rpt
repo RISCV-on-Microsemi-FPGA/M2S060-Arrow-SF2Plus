@@ -1,20 +1,20 @@
 # Synopsys Constraint Checker, version map201609actrcp1, Build 005R, built Jan 25 2017
 # Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Mon Nov 20 10:10:13 2017
+# Written on Wed Jun 06 15:08:54 2018
 
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "PROC_SUBSYSTEM"
-Constraint File(s):      "C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM\synthesis.fdc"
+Constraint File(s):      "C:\Users\ciaran.lappin\Desktop\ExtHelp\TimMorin\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\designer\PROC_SUBSYSTEM\synthesis.fdc"
 
 
 
 
 ##### SUMMARY ############################################################
 
-Found 4 issues in 4 out of 15 constraints
+Found 3 issues in 3 out of 13 constraints
 
 
 ##### DETAILS ############################################################
@@ -24,25 +24,25 @@ Found 4 issues in 4 out of 15 constraints
 Clock Relationships
 *******************
 
-Starting                                                               Ending                                                                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                                 uj_jtag_85|un1_duttck_inferred_clock                                   |     No paths         |     No paths         |     10.000           |     No paths                         
-System                                                                 COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                              |     10.000           |     No paths         |     10.000           |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT               MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT               |     20.000           |     No paths         |     No paths         |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT               MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      |     20.000           |     No paths         |     No paths         |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB     MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB     |     80.000           |     No paths         |     40.000           |     40.000                           
-MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB     MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      |     20.000           |     No paths         |     No paths         |     No paths                         
-uj_jtag_85|un1_duttck_inferred_clock                                   uj_jtag_85|un1_duttck_inferred_clock                                   |     10.000           |     10.000           |     5.000            |     5.000                            
-uj_jtag_85|un1_duttck_inferred_clock                                   COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
-uj_jtag_85|un1_duttck_inferred_clock                                   MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      |     No paths         |     No paths         |     No paths         |     Diff grp                         
-COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                              System                                                                 |     10.000           |     No paths         |     No paths         |     No paths                         
-COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                              uj_jtag_85|un1_duttck_inferred_clock                                   |     No paths         |     Diff grp         |     No paths         |     No paths                         
-COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                              COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                              |     10.000           |     No paths         |     5.000            |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT               |     20.000           |     No paths         |     No paths         |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB     |     20.000           |     No paths         |     No paths         |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      uj_jtag_85|un1_duttck_inferred_clock                                   |     No paths         |     No paths         |     Diff grp         |     No paths                         
-MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0                                      |     20.000           |     No paths         |     No paths         |     No paths                         
-=========================================================================================================================================================================================================================================================
+Starting                                                     Ending                                                       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                       uj_jtag_85|un1_duttck_inferred_clock                         |     No paths         |     No paths         |     10.000           |     No paths                         
+System                                                       COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    |     10.000           |     No paths         |     10.000           |     No paths                         
+MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          |     20.000           |     No paths         |     No paths         |     No paths                         
+MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 |     20.000           |     No paths         |     No paths         |     No paths                         
+MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB     MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB     |     80.000           |     No paths         |     40.000           |     40.000                           
+MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB     MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 |     20.000           |     No paths         |     No paths         |     No paths                         
+uj_jtag_85|un1_duttck_inferred_clock                         uj_jtag_85|un1_duttck_inferred_clock                         |     10.000           |     10.000           |     5.000            |     5.000                            
+uj_jtag_85|un1_duttck_inferred_clock                         COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    |     Diff grp         |     No paths         |     No paths         |     No paths                         
+uj_jtag_85|un1_duttck_inferred_clock                         MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 |     No paths         |     No paths         |     No paths         |     Diff grp                         
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    System                                                       |     10.000           |     No paths         |     No paths         |     No paths                         
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    uj_jtag_85|un1_duttck_inferred_clock                         |     No paths         |     Diff grp         |     No paths         |     No paths                         
+COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock                    |     10.000           |     No paths         |     5.000            |     No paths                         
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          |     20.000           |     No paths         |     No paths         |     No paths                         
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB     |     20.000           |     No paths         |     No paths         |     No paths                         
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 uj_jtag_85|un1_duttck_inferred_clock                         |     No paths         |     No paths         |     Diff grp         |     No paths                         
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 |     20.000           |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -146,17 +146,14 @@ Inapplicable constraints
 Applicable constraints with issues
 **********************************
 
-set_false_path -from { get_clocks { MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 } } -to { get_clocks { TCK } }
-	@W:"c:/users/hbreslin/desktop/project workspace/github/m2s060fg-creative-board/modify_the_fpga_design/miv_rv32ima_ahb_basedesign/designer/proc_subsystem/synthesis.fdc":20:0:20:0|Timing constraint (from [get_clocks { MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 }] to [get_clocks { TCK }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+set_false_path -from { get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 } } -to { get_clocks { TCK } }
+	@W:"c:/users/ciaran.lappin/desktop/exthelp/timmorin/m2s060-arrow-sf2plus-master/modify_the_fpga_design/coreriscv_axi4_basedesign/designer/proc_subsystem/synthesis.fdc":18:0:18:0|Timing constraint (from [get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 }] to [get_clocks { TCK }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
 
-set_false_path -from { get_clocks { TCK } } -to { get_clocks { MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 } }
-	@W:"c:/users/hbreslin/desktop/project workspace/github/m2s060fg-creative-board/modify_the_fpga_design/miv_rv32ima_ahb_basedesign/designer/proc_subsystem/synthesis.fdc":19:0:19:0|Timing constraint (from [get_clocks { TCK }] to [get_clocks { MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0 }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+set_false_path -from { get_clocks { TCK } } -to { get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 } }
+	@W:"c:/users/ciaran.lappin/desktop/exthelp/timmorin/m2s060-arrow-sf2plus-master/modify_the_fpga_design/coreriscv_axi4_basedesign/designer/proc_subsystem/synthesis.fdc":17:0:17:0|Timing constraint (from [get_clocks { TCK }] to [get_clocks { MSS_SUBSYSTEM_sb_0/CCC_0/GL0 }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
 
-set_false_path -through { get_pins { MSS_SUBSYSTEM_sb_0_sb_0.MSS_SUBSYSTEM_sb_0_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N } }
-	@W:"c:/users/hbreslin/desktop/project workspace/github/m2s060fg-creative-board/modify_the_fpga_design/miv_rv32ima_ahb_basedesign/designer/proc_subsystem/synthesis.fdc":17:0:17:0|Timing constraint (through [get_pins { MSS_SUBSYSTEM_sb_0_sb_0.MSS_SUBSYSTEM_sb_0_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
-
-set_max_delay { 0 } -through { get_nets { MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE } } -to { get_cells { MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.state[0] } }
-	@W:"c:/users/hbreslin/desktop/project workspace/github/m2s060fg-creative-board/modify_the_fpga_design/miv_rv32ima_ahb_basedesign/designer/proc_subsystem/synthesis.fdc":21:0:21:0|Timing constraint (through [get_nets { MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] to [get_cells { MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* MSS_SUBSYSTEM_sb_0_sb_0.CORECONFIGP_0.state[0] }]) (max delay 0.000000) was not applied to the design because none of the paths specified by the constraint exist in the design
+set_max_delay { 0 } -through { get_nets { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE } } -to { get_cells { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.state[0] } }
+	@W:"c:/users/ciaran.lappin/desktop/exthelp/timmorin/m2s060-arrow-sf2plus-master/modify_the_fpga_design/coreriscv_axi4_basedesign/designer/proc_subsystem/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] to [get_cells { MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* MSS_SUBSYSTEM_sb_0.CORECONFIGP_0.state[0] }]) (max delay 0.000000) was not applied to the design because none of the paths specified by the constraint exist in the design
 
 
 Constraints with matching wildcard expressions

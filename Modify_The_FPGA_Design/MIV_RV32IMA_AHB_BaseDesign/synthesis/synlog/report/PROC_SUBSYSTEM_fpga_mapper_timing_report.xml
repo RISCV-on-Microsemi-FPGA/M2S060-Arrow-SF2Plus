@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S060FG-Creative-Board\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\synthesis\synlog\PROC_SUBSYSTEM_fpga_mapper.srr</data>
+<data>C:\Users\ciaran.lappin\Desktop\ExtHelp\TimMorin\M2S060-Arrow-SF2Plus-master\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign\synthesis\synlog\PROC_SUBSYSTEM_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,23 +17,23 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>COREJTAGDEBUG_85_1s|iUDRCK_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>142.9 MHz</data>
-<data>1.501</data>
+<data>119.3 MHz</data>
+<data>0.810</data>
 </row>
 <row>
-<data>MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0</data>
+<data>MSS_SUBSYSTEM_sb_0/CCC_0/GL0</data>
 <data>50.0 MHz</data>
-<data>64.2 MHz</data>
-<data>4.423</data>
+<data>64.4 MHz</data>
+<data>4.483</data>
 </row>
 <row>
-<data>MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
 <data>50.0 MHz</data>
 <data>372.7 MHz</data>
 <data>17.317</data>
 </row>
 <row>
-<data>MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/CLK_CONFIG_APB</data>
+<data>MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB</data>
 <data>12.5 MHz</data>
 <data>92.6 MHz</data>
 <data>34.600</data>
@@ -47,13 +47,13 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>uj_jtag_85|un1_duttck_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>115.4 MHz</data>
-<data>0.668</data>
+<data>102.7 MHz</data>
+<data>0.133</data>
 </row>
 <row>
 <data>System</data>
 <data>100.0 MHz</data>
-<data>160.9 MHz</data>
-<data>3.784</data>
+<data>141.4 MHz</data>
+<data>2.930</data>
 </row>
 </report_table>

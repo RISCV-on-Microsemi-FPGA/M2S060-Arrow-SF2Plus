@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Fri Nov 17 14:37:19 2017
+// Created by Microsemi SmartDesign Wed Jun 06 14:57:26 2018
 // Parameters for CoreGPIO
 //--------------------------------------------------------------------
 
@@ -135,5 +135,5 @@ parameter IO_VAL_28 = 0;
 parameter IO_VAL_29 = 0;
 parameter IO_VAL_30 = 0;
 parameter IO_VAL_31 = 0;
-parameter OE_TYPE = 0;
+parameter OE_TYPE = 1;
 parameter testbench = "User";
